@@ -134,6 +134,12 @@
     <Compile Include="History_3.Designer.cs">
       <DependentUpon>History_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mix_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mix_1.Designer.cs">
+      <DependentUpon>Mix_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Score.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mix_1.resx">
+      <DependentUpon>Mix_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Score.resx">
       <DependentUpon>Score.cs</DependentUpon>
@@ -228,6 +237,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\backgrounds\back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

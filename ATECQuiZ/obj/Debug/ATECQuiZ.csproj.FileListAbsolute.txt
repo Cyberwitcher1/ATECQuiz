@@ -50,3 +50,4 @@ C:\Users\Johnny\Desktop\TRABALHO\ATEC\AULAS\CET\ARRAYS\WinForms\ATECQuiZ\ATECQui
 C:\Users\Johnny\Desktop\TRABALHO\ATEC\AULAS\CET\ARRAYS\WinForms\ATECQuiZ\ATECQuiZ\obj\Debug\ATECQuiZ.History_3.resources
 C:\Users\Johnny\Desktop\TRABALHO\ATEC\AULAS\CET\ARRAYS\WinForms\ATECQuiZ\ATECQuiZ\obj\Debug\ATECQuiZ.Sports_2.resources
 C:\Users\Johnny\Desktop\TRABALHO\ATEC\AULAS\CET\ARRAYS\WinForms\ATECQuiZ\ATECQuiZ\obj\Debug\ATECQuiZ.Sports_3.resources
+C:\Users\Johnny\Desktop\TRABALHO\ATEC\AULAS\CET\ARRAYS\WinForms\ATECQuiZ\ATECQuiZ\obj\Debug\ATECQuiZ.Mix_1.resources

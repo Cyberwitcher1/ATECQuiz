@@ -4,12 +4,12 @@
 		<tema_desporto>
 			<nivel_1>
 				<pergunta_1>
-					<texto>Onde é que foram realizados os primeiros Jogos Olímpicos modernos em 1896?</texto>
+					<texto>Quem é considerado o melhor jogador de basquetebol de todos os tempos?</texto>
 					<respostas>
-						<resposta_1>Grécia</resposta_1>
-						<resposta_2>Itália</resposta_2>
-						<resposta_3>Alemanha</resposta_3>
-						<resposta_4>Rússia</resposta_4>
+						<resposta_1>Michael Jordan</resposta_1>
+						<resposta_2>Lebron James</resposta_2>
+						<resposta_3>Stephen Curry</resposta_3>
+						<resposta_4>Kareem Abdul-Jabbar</resposta_4>
 					</respostas>
 					<respostacerta>Grécia</respostacerta>
 				</pergunta_1>
@@ -84,7 +84,7 @@
 					<respostacerta>Beisebol</respostacerta>
 				</pergunta_8>
 				<pergunta_9>
-					<texto>Qual é o país de origem do desporto marcial Judo?</texto>
+					<texto>Qual é o país de origem que deu a origem ao Judo?</texto>
 					<respostas>
 						<resposta_1>Tailândia</resposta_1>
 						<resposta_2>China</resposta_2>
@@ -96,7 +96,7 @@
 				<pergunta_10>
 					<texto>Qual é o principal objetivo no desporto do Golfe?</texto>
 					<respostas>
-						<resposta_1>Colocar a bola no buraco com o menor número de 						tacadas</resposta_1>
+						<resposta_1>Colocar a bola no buraco com o menor número de tacadas</resposta_1>
 						<resposta_2>Colocar a bola no buraco no menor tempo possível</resposta_2>
 						<resposta_3>Lançar a bola o mais longe possível da base</resposta_3>
 						<resposta_4>Evitar que o adversário acerte na bola</resposta_4>

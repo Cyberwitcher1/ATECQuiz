@@ -19,6 +19,7 @@ namespace ATECQuiZ
         bool button1Clicked = false;
         bool button2Clicked = false;
         bool button3Clicked = false;
+        bool btnSportClicked = false, btnHistoryClicked = false, btnCinemaClicked = false, btnMixClicked = false;
         public Menu()
         {
             InitializeComponent();
@@ -45,12 +46,9 @@ namespace ATECQuiZ
         private void btn_start_Click(object sender, EventArgs e)
         {
 
-            string game_choosen = cbb_games.SelectedItem.ToString();
-            /*string difficulty_choosen = cbb_difficulty.SelectedItem.ToString();*/
 
 
-
-            if (game_choosen == "Desporto")
+            if (btnSportClicked)
             {
                 if (button1Clicked)
                 {
@@ -68,7 +66,7 @@ namespace ATECQuiZ
                     form4.ShowDialog();
                 }
             }
-            else if (game_choosen == "História")
+            else if (btnHistoryClicked)
             {
                 if (button1Clicked)
                 {
@@ -86,7 +84,7 @@ namespace ATECQuiZ
                     form7.ShowDialog();
                 }
             }
-            else if (game_choosen == "Cinema")
+            else if (btnCinemaClicked)
             {
                 if (button1Clicked)
                 {
@@ -102,6 +100,14 @@ namespace ATECQuiZ
                 {
                     Cinema_3 form10 = new Cinema_3();
                     form10.ShowDialog();
+                }
+            }
+            else if (btnMixClicked)
+            {
+                if (button1Clicked)
+                {
+                    Mix_1 form11 = new Mix_1();
+                    form11.ShowDialog();
                 }
             }
         }
@@ -125,6 +131,35 @@ namespace ATECQuiZ
             button3Clicked = true;
             button2Clicked = false;
             button1Clicked = false;
+        }
+
+        private void btn_sport_Click(object sender, EventArgs e)
+        {
+            btnSportClicked = true;
+            btnHistoryClicked = false;
+            btnCinemaClicked = false;
+        }
+
+        private void btn_mix_Click(object sender, EventArgs e)
+        {
+            btnMixClicked = true;
+            btnHistoryClicked = false;
+            btnCinemaClicked = false;
+            btnSportClicked = false;
+        }
+
+        private void btn_history_Click(object sender, EventArgs e)
+        {
+            btnHistoryClicked = true;
+            btnSportClicked = false;
+            btnCinemaClicked = false;
+        }
+
+        private void btn_cinema_Click(object sender, EventArgs e)
+        {
+            btnCinemaClicked = true;
+            btnSportClicked = false;
+            btnHistoryClicked = false;
         }
     }
 }
