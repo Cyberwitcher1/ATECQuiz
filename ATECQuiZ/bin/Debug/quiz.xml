@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<perguntas>
+		<tema_desporto>
+			<nivel_1>
+				<pergunta_1>
+					<texto>Onde é que foram realizados os primeiros Jogos Olímpicos modernos em 1896?</texto>
+					<respostas>
+						<resposta_1>Grécia</resposta_1>
+						<resposta_2>Itália</resposta_2>
+						<resposta_3>Alemanha</resposta_3>
+						<resposta_4>Rússia</resposta_4>
+					</respostas>
+					<respostacerta>Grécia</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Qual destas modalidades é conhecida como o "desporto-rei" em Portugal?</texto>
+					<respostas>
+						<resposta_1>Andebol</resposta_1>
+						<resposta_2>Futsal</resposta_2>
+						<resposta_3>Hóquei em Patins</resposta_3>
+						<resposta_4>Futebol</resposta_4>
+					</respostas>
+					<respostacerta>Futebol</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Quantos jogadores de cada equipa entram em campo num jogo de basquetebol?</texto>
+					<respostas>
+						<resposta_1>7</resposta_1>
+						<resposta_2>6</resposta_2>
+						<resposta_3>5</resposta_3>
+						<resposta_4>11</resposta_4>
+					</respostas>
+					<respostacerta>5</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>De quantos em quantos anos são realizados os Jogos Olímpicos de Verão?</texto>
+					<respostas>
+						<resposta_1>4 anos</resposta_1>
+						<resposta_2>2 anos</resposta_2>
+						<resposta_3>5 anos</resposta_3>
+						<resposta_4>3 anos</resposta_4>
+					</respostas>
+					<respostacerta>4 anos</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual é a cor da camisola utilizada pelo líder da classificação geral no Tour de France?</texto>
+					<respostas>
+						<resposta_1>Rosa</resposta_1>
+						<resposta_2>Verde</resposta_2>
+						<resposta_3>Amarela</resposta_3>
+						<resposta_4>Vermelha</resposta_4>
+					</respostas>
+					<respostacerta>Amarela</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Qual é a duração oficial de uma partida de futebol regular, excluindo o prolongamento?</texto>
+					<respostas>
+						<resposta_1>60 minutos</resposta_1>
+						<resposta_2>80 minutos</resposta_2>
+						<resposta_3>100 minutos</resposta_3>
+						<resposta_4>90 minutos</resposta_4>
+					</respostas>
+					<respostacerta>90 minutos</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Quantos anéis compõem o símbolo oficial dos Jogos Olímpicos?</texto>
+					<respostas>
+						<resposta_1>7</resposta_1>
+						<resposta_2>4</resposta_2>
+						<resposta_3>6</resposta_3>
+						<resposta_4>5</resposta_4>
+					</respostas>
+					<respostacerta>5</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Em que desporto se utiliza o termo "Home Run"?</texto>
+					<respostas>
+						<resposta_1>Golf</resposta_1>
+						<resposta_2>Críquete</resposta_2>
+						<resposta_3>Beisebol</resposta_3>
+						<resposta_4>Râguebi</resposta_4>
+					</respostas>
+					<respostacerta>Beisebol</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Qual é o país de origem do desporto marcial Judo?</texto>
+					<respostas>
+						<resposta_1>Tailândia</resposta_1>
+						<resposta_2>China</resposta_2>
+						<resposta_3>Coreia do Sul</resposta_3>
+						<resposta_4>Japão</resposta_4>
+					</respostas>
+					<respostacerta>Japão</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual é o principal objetivo no desporto do Golfe?</texto>
+					<respostas>
+						<resposta_1>Colocar a bola no buraco com o menor número de 						tacadas</resposta_1>
+						<resposta_2>Colocar a bola no buraco no menor tempo possível</resposta_2>
+						<resposta_3>Lançar a bola o mais longe possível da base</resposta_3>
+						<resposta_4>Evitar que o adversário acerte na bola</resposta_4>
+					</respostas>
+					<respostacerta>Colocar a bola no buraco com o menor número de tacadas</respostacerta>
+				</pergunta_10>
+			</nivel_1>
+			<nivel_2>
+				<pergunta_1>
+					<texto>Qual é a distância oficial de uma corrida de Maratona?</texto>
+					<respostas>
+						<resposta_1>50,000 km</resposta_1>
+						<resposta_2>40,000 km</resposta_2>
+						<resposta_3>21,097 km</resposta_3>
+						<resposta_4>42,195 km</resposta_4>
+					</respostas>
+					<respostacerta>42,195 km</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Em que modalidade desportiva se disputa a prestigiada 'Taça Davis'?</texto>
+					<respostas>
+						<resposta_1>Squash</resposta_1>
+						<resposta_2>Ténis de Mesa</resposta_2>
+						<resposta_3>Badminton</resposta_3>
+						<resposta_4>Ténis</resposta_4>
+					</respostas>
+					<respostacerta>Ténis</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual é a periodicidade da realização do Campeonato do Mundo de Futebol da FIFA?</texto>
+					<respostas>
+						<resposta_1>De 3 em 3 anos</resposta_1>
+						<resposta_2>De 2 em 2 anos</resposta_2>
+						<resposta_3>Todos os anos</resposta_3>
+						<resposta_4>De 4 em 4 anos</resposta_4>
+					</respostas>
+					<respostacerta>De 4 em 4 anos</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>No voleibol de pavilhão, qual é o número máximo de toques que uma equipa pode dar na bola antes de a enviar para o campo adversário?</texto>
+					<respostas>
+						<resposta_1>5 toques</resposta_1>
+						<resposta_2>2 toques</resposta_2>
+						<resposta_3>4 toques</resposta_3>
+						<resposta_4>3 toques</resposta_4>
+					</respostas>
+					<respostacerta>3 toques</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual destas superfícies NÃO é utilizada em torneios do Grand Slam de Ténis?</texto>
+					<respostas>
+						<resposta_1>Piso Duro</resposta_1>
+						<resposta_2>Terra Batida</resposta_2>
+						<resposta_3>Relva</resposta_3>
+						<resposta_4>Madeira</resposta_4>
+					</respostas>
+					<respostacerta>Madeira</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Quantos minutos dura cada um dos quatro períodos regulamentares de um jogo da NBA?</texto>
+					<respostas>
+						<resposta_1>20 minutos</resposta_1>
+						<resposta_2>10 minutos</resposta_2>
+						<resposta_3>15 minutos</resposta_3>
+						<resposta_4>12 minutos</resposta_4>
+					</respostas>
+					<respostacerta>12 minutos</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Qual é o estilo de natação em que o nadador se move de costas para o fundo da piscina?</texto>
+					<respostas>
+						<resposta_1>Mariposa</resposta_1>
+						<resposta_2>Bruços</resposta_2>
+						<resposta_3>Costas</resposta_3>
+						<resposta_4>Livre</resposta_4>
+					</respostas>
+					<respostacerta>Costas</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>No râguebi de quinze, quantos pontos vale a marcação de um 'Ensaio' (Try)?</texto>
+					<respostas>
+						<resposta_1>3 pontos</resposta_1>
+						<resposta_2>5 pontos</resposta_2>
+						<resposta_3>2 pontos</resposta_3>
+						<resposta_4>7 pontos</resposta_4>
+					</respostas>
+					<respostacerta>5 pontos</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Em que desporto olímpico os atletas utilizam armas chamadas florete, espada ou sabre?</texto>
+					<respostas>
+						<resposta_1>Pentatlo Moderno</resposta_1>
+						<resposta_2>Tiro com Arco</resposta_2>
+						<resposta_3>Esgrima</resposta_3>
+						<resposta_4>Kendo</resposta_4>
+					</respostas>
+					<respostacerta>Esgrima</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual é o país conhecido internacionalmente pela competição automóvel das '500 Milhas de Indianápolis'?</texto>
+					<respostas>
+						<resposta_1>França</resposta_1>
+						<resposta_2>Reino Unido</resposta_2>
+						<resposta_3>Estados Unidos</resposta_3>
+						<resposta_4>Mónaco</resposta_4>
+					</respostas>
+					<respostacerta>Estados Unidos</respostacerta>
+				</pergunta_10>
+			</nivel_2>
+			<nivel_3>
+				<pergunta_1>
+					<texto>Quem é o atleta masculino com o maior número de medalhas de ouro na história dos Jogos Olímpicos?</texto>
+					<respostas>
+						<resposta_1>Larisa Latynina</resposta_1>
+						<resposta_2>Usain Bolt</resposta_2>
+						<resposta_3>Carl Lewis</resposta_3>
+						<resposta_4>Michael Phelps</resposta_4>
+					</respostas>
+					<respostacerta>Michael Phelps</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Em que ano se realizaram os primeiros Jogos Olímpicos de Inverno?</texto>
+					<respostas>
+						<resposta_1>1952</resposta_1>
+						<resposta_2>1900</resposta_2>
+						<resposta_3>1936</resposta_3>
+						<resposta_4>1924</resposta_4>
+					</respostas>
+					<respostacerta>1924</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual é o piloto de Fórmula 1 com o maior número de vitórias em Grandes Prémios na história do desporto?</texto>
+					<respostas>
+						<resposta_1>Alain Prost</resposta_1>
+						<resposta_2>Michael Schumacher</resposta_2>
+						<resposta_3>Ayrton Senna</resposta_3>
+						<resposta_4>Lewis Hamilton</resposta_4>
+					</respostas>
+					<respostacerta>Lewis Hamilton</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Que país organizou e venceu o primeiro Campeonato do Mundo de Futebol da FIFA em 1930?</texto>
+					<respostas>
+						<resposta_1>Brasil</resposta_1>
+						<resposta_2>Uruguai</resposta_2>
+						<resposta_3>Argentina</resposta_3>
+						<resposta_4>Itália</resposta_4>
+					</respostas>
+					<respostacerta>Uruguai</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual é o recorde mundial masculino dos 100 metros livres estabelecido por Usain Bolt em 2009?</texto>
+					<respostas>
+						<resposta_1>9,69 segundos</resposta_1>
+						<resposta_2>9,58 segundos</resposta_2>
+						<resposta_3>9,72 segundos</resposta_3>
+						<resposta_4>9,50 segundos</resposta_4>
+					</respostas>
+					<respostacerta>9,58 segundos</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Em que desporto se compete pelo prestigiado troféu internacional 'America's Cup'?</texto>
+					<respostas>
+						<resposta_1>Polo</resposta_1>
+						<resposta_2>Vela</resposta_2>
+						<resposta_3>Hóquei no Gelo</resposta_3>
+						<resposta_4>Golfe</resposta_4>
+					</respostas>
+					<respostacerta>Vela</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Quantas vezes a seleção nacional de futebol do Brasil conquistou o Campeonato do Mundo da FIFA?</texto>
+					<respostas>
+						<resposta_1>6</resposta_1>
+						<resposta_2>4</resposta_2>
+						<resposta_3>5</resposta_3>
+						<resposta_4>3</resposta_4>
+					</respostas>
+					<respostacerta>5</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Quem foi a primeira ginasta a obter uma pontuação perfeita de 10.0 em Jogos Olímpicos?</texto>
+					<respostas>
+						<resposta_1>Larisa Latynina</resposta_1>
+						<resposta_2>Simone Biles</resposta_2>
+						<resposta_3>Nadia Comăneci</resposta_3>
+						<resposta_4>Olga Korbut</resposta_4>
+					</respostas>
+					<respostacerta>Nadia Comăneci</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Qual destas modalities desportivas fez a sua estreia oficial como desporto olímpico nos Jogos de Tóquio 2020?</texto>
+					<respostas>
+						<resposta_1>Badminton</resposta_1>
+						<resposta_2>Taekwondo</resposta_2>
+						<resposta_3>Triatlo</resposta_3>
+						<resposta_4>Skate</resposta_4>
+					</respostas>
+					<respostacerta>Skate</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual é a única nação que participou em absolutamente todas as edições do Campeonato do Mundo de Futebol da FIFA?</texto>
+					<respostas>
+						<resposta_1>Argentina</resposta_1>
+						<resposta_2>Alemanha</resposta_2>
+						<resposta_3>Itália</resposta_3>
+						<resposta_4>Brasil</resposta_4>
+					</respostas>
+					<respostacerta>Brasil</respostacerta>
+				</pergunta_10>
+			</nivel_3>
+		</tema_desporto>
+
+		<tema_historia>
+			<nivel_1>
+				<pergunta_1>
+					<texto>Quem foi o primeiro Rei de Portugal?</texto>
+					<respostas>
+						<resposta_1>D. Manuel I</resposta_1>
+						<resposta_2>D. Dinis</resposta_2>
+						<resposta_3>D. João I</resposta_3>
+						<resposta_4>D. Afonso Henriques</resposta_4>
+					</respostas>
+					<respostacerta>D. Afonso Henriques</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Em que ano ocorreu a Revolução dos Cravos em Portugal?</texto>
+					<respostas>
+						<resposta_1>1989</resposta_1>
+						<resposta_2>1910</resposta_2>
+						<resposta_3>1945</resposta_3>
+						<resposta_4>1974</resposta_4>
+					</respostas>
+					<respostacerta>1974</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual foi o navegador português que descobriu o caminho marítimo para a Índia?</texto>
+					<respostas>
+						<resposta_1>Pedro Álvares Cabral</resposta_1>
+						<resposta_2>Vasco da Gama</resposta_2>
+						<resposta_3>Infante D. Henrique</resposta_3>
+						<resposta_4>Fernão de Magalhães</resposta_4>
+					</respostas>
+					<respostacerta>Vasco da Gama</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Quem foi a famosa rainha do Antigo Egito conhecida pela sua relação com Júlio César e Marco António?</texto>
+					<respostas>
+						<resposta_1>Isis</resposta_1>
+						<resposta_2>Nefertiti</resposta_2>
+						<resposta_3>Hatshepsut</resposta_3>
+						<resposta_4>Cleópatra</resposta_4>
+					</respostas>
+					<respostacerta>Cleópatra</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Que civilização antiga construiu o Coliseu?</texto>
+					<respostas>
+						<resposta_1>Egípcia</resposta_1>
+						<resposta_2>Grega</resposta_2>
+						<resposta_3>Romana</resposta_3>
+						<resposta_4>Fenícia</resposta_4>
+					</respostas>
+					<respostacerta>Romana</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Quem descobriu a América em 1492?</texto>
+					<respostas>
+						<resposta_1>Marco Polo</resposta_1>
+						<resposta_2>Américo Vespúcio</resposta_2>
+						<resposta_3>Cristóvão Colombo</resposta_3>
+						<resposta_4>Fernão de Magalhães</resposta_4>
+					</respostas>
+					<respostacerta>Cristóvão Colombo</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Qual era o título dado aos imperadores da Rússia até à Revolução de 1917?</texto>
+					<respostas>
+						<resposta_1>Sultão</resposta_1>
+						<resposta_2>Faraó</resposta_2>
+						<resposta_3>Kaiser</resposta_3>
+						<resposta_4>Czar</resposta_4>
+					</respostas>
+					<respostacerta>Czar</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Em que continente se desenvolveu a civilização dos Incas?</texto>
+					<respostas>
+						<resposta_1>Ásia</resposta_1>
+						<resposta_2>América do Norte</resposta_2>
+						<resposta_3>África</resposta_3>
+						<resposta_4>América do Sul</resposta_4>
+					</respostas>
+					<respostacerta>América do Sul</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Quem foi o líder espiritual e político que conduziu a Índia à independência através da não-violência?</texto>
+					<respostas>
+						<resposta_1>Mahatma Gandhi</resposta_1>
+						<resposta_2>Jawaharlal Nehru</resposta_2>
+						<resposta_3>Nelson Mandela</resposta_3>
+						<resposta_4>Dalai Lama</resposta_4>
+					</respostas>
+					<respostacerta>Mahatma Gandhi</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual destas grandes construções tinha como objetivo proteger a fronteira norte do Império Chinês?</texto>
+					<respostas>
+						<resposta_1>A Grande Muralha</resposta_1>
+						<resposta_2>O Exército de Terracota</resposta_2>
+						<resposta_3>A Cidade Proibida</resposta_3>
+						<resposta_4>O Templo do Céu</resposta_4>
+					</respostas>
+					<respostacerta>A Grande Muralha</respostacerta>
+				</pergunta_10>
+			</nivel_1>
+			<nivel_2>
+				<pergunta_1>
+					<texto>Em que ano teve início a Primeira Guerra Mundial?</texto>
+					<respostas>
+						<resposta_1>1912</resposta_1>
+						<resposta_2>1918</resposta_2>
+						<resposta_3>1939</resposta_3>
+						<resposta_4>1914</resposta_4>
+					</respostas>
+					<respostacerta>1914</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Qual foi o tratado que pôs fim formalmente à Primeira Guerra Mundial em 1919?</texto>
+					<respostas>
+						<resposta_1>Tratado de Utrecht</resposta_1>
+						<resposta_2>Tratado de Tordesilhas</resposta_2>
+						<resposta_3>Tratado de Versalhes</resposta_3>
+						<resposta_4>Tratado de Berlim</resposta_4>
+					</respostas>
+					<respostacerta>Tratado de Versalhes</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Quem era o Primeiro-Ministro do Reino Unido durante a maior parte da Segunda Guerra Mundial?</texto>
+					<respostas>
+						<resposta_1>Clement Attlee</resposta_1>
+						<resposta_2>Neville Chamberlain</resposta_2>
+						<resposta_3>Winston Churchill</resposta_3>
+						<resposta_4>Franklin Roosevelt</resposta_4>
+					</respostas>
+					<respostacerta>Winston Churchill</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Qual foi o século em que ocorreu a Revolução Francesa?</texto>
+					<respostas>
+						<resposta_1>Século XIX</resposta_1>
+						<resposta_2>Século XVII</resposta_2>
+						<resposta_3>Século XVIII</resposta_3>
+						<resposta_4>Século XVI</resposta_4>
+					</respostas>
+					<respostacerta>Século XVIII</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>A queda de que importante marco simbólico em 1989 marcou o fim iminente da Guerra Fria?</texto>
+					<respostas>
+						<resposta_1>Palácio de Inverno</resposta_1>
+						<resposta_2>Cortina de Ferro</resposta_2>
+						<resposta_3>Muro de Berlim</resposta_3>
+						<resposta_4>Bastilha</resposta_4>
+					</respostas>
+					<respostacerta>Muro de Berlim</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Quem foi o célebre imperador francês militarmente derrotado na Batalha de Waterloo?</texto>
+					<respostas>
+						<resposta_1>Luís XVI</resposta_1>
+						<resposta_2>Luís XIV</resposta_2>
+						<resposta_3>Napoleão Bonaparte</resposta_3>
+						<resposta_4>Carlos Magno</resposta_4>
+					</respostas>
+					<respostacerta>Napoleão Bonaparte</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Que importante documento de direitos foi assinado pelo Rei João da Inglaterra em 1215?</texto>
+					<respostas>
+						<resposta_1>Tratado de Windsor</resposta_1>
+						<resposta_2>Declaração de Direitos</resposta_2>
+						<resposta_3>Magna Carta</resposta_3>
+						<resposta_4>Código de Hamurábi</resposta_4>
+					</respostas>
+					<respostacerta>Magna Carta</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Qual foi o primeiro país europeu a estabelecer uma rota comercial estável com o Japão no século XVI?</texto>
+					<respostas>
+						<resposta_1>Países Baixos</resposta_1>
+						<resposta_2>Espanha</resposta_2>
+						<resposta_3>Portugal</resposta_3>
+						<resposta_4>Inglaterra</resposta_4>
+					</respostas>
+					<respostacerta>Portugal</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>A peste negra, que assolou a Europa no século XIV, era principalmente de que tipo de doença?</texto>
+					<respostas>
+						<resposta_1>Cólera</resposta_1>
+						<resposta_2>Varíola</resposta_2>
+						<resposta_3>Gripe</resposta_3>
+						<resposta_4>Peste Bubónica</resposta_4>
+					</respostas>
+					<respostacerta>Peste Bubónica</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual era a principal cidade-estado rival de Atenas durante a Guerra do Peloponeso na Grécia Antiga?</texto>
+					<respostas>
+						<resposta_1>Troia</resposta_1>
+						<resposta_2>Tebas</resposta_2>
+						<resposta_3>Corinto</resposta_3>
+						<resposta_4>Esparta</resposta_4>
+					</respostas>
+					<respostacerta>Esparta</respostacerta>
+				</pergunta_10>
+			</nivel_2>
+			<nivel_3>
+				<pergunta_1>
+					<texto>Qual é o nome do mais antigo código de leis escrito conhecido na história, originário da Mesopotâmia?</texto>
+					<respostas>
+						<resposta_1>Código de Justiniano</resposta_1>
+						<resposta_2>Leis das Doze Tábuas</resposta_2>
+						<resposta_3>Código de Hamurábi</resposta_3>
+						<resposta_4>Edito de Milão</resposta_4>
+					</respostas>
+					<respostacerta>Código de Hamurábi</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Em que batalha o exército de D. Afonso Henriques derrotou as forças de D. Teresa em 1128?</texto>
+					<respostas>
+						<resposta_1>Batalha de Aljubarrota</resposta_1>
+						<resposta_2>Batalha de Ourique</resposta_2>
+						<resposta_3>Batalha de São Mamede</resposta_3>
+						<resposta_4>Batalha de Toro</resposta_4>
+					</respostas>
+					<respostacerta>Batalha de São Mamede</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Quem foi o general cartaginês que cruzou os Alpes com elefantes para atacar Roma durante a Segunda Guerra Púnica?</texto>
+					<respostas>
+						<resposta_1>Asdrúbal</resposta_1>
+						<resposta_2>Amílcar Barca</resposta_2>
+						<resposta_3>Aníbal Barca</resposta_3>
+						<resposta_4>Cipião Africano</resposta_4>
+					</respostas>
+					<respostacerta>Aníbal Barca</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Em que ano se deu o devastador Sismo de Lisboa que destruiu grande parte da capital portuguesa?</texto>
+					<respostas>
+						<resposta_1>1700</resposta_1>
+						<resposta_2>1755</resposta_2>
+						<resposta_3>1807</resposta_3>
+						<resposta_4>1640</resposta_4>
+					</respostas>
+					<respostacerta>1755</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Quem foi o último czar da Rússia, executado juntamente com a sua família em 1918?</texto>
+					<respostas>
+						<resposta_1>Alexandre III</resposta_1>
+						<resposta_2>Nicolau II</resposta_2>
+						<resposta_3>Pedro, o Grande</resposta_3>
+						<resposta_4>Ivan, o Terrível</resposta_4>
+					</respostas>
+					<respostacerta>Nicolau II</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Qual foi a dinastia que governou a China durante a sua 'Idade de Ouro' cultural entre 618 e 907 d.C.?</texto>
+					<respostas>
+						<resposta_1>Dinastia Han</resposta_1>
+						<resposta_2>Dinastia Ming</resposta_2>
+						<resposta_3>Dinastia Tang</resposta_3>
+						<resposta_4>Dinastia Qing</resposta_4>
+					</respostas>
+					<respostacerta>Dinastia Tang</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Que imperador romano legalizou o Cristianismo no Império através do Édito de Milão em 313 d.C.?</texto>
+					<respostas>
+						<resposta_1>Augusto</resposta_1>
+						<resposta_2>Nero</resposta_2>
+						<resposta_3>Constantino</resposta_3>
+						<resposta_4>Trajano</resposta_4>
+					</respostas>
+					<respostacerta>Constantino</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Quem foi o primeiro Presidente da República Portuguesa após a implantação do regime em 1910?</texto>
+					<respostas>
+						<resposta_1>Afonso Costa</resposta_1>
+						<resposta_2>Teófilo Braga</resposta_2>
+						<resposta_3>Manuel de Arriaga</resposta_3>
+						<resposta_4>Sidónio Pais</resposta_4>
+					</respostas>
+					<respostacerta>Manuel de Arriaga</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Que acordo secreto de 1916 dividiu o Médio Oriente em esferas de influência britânica e francesa?</texto>
+					<respostas>
+						<resposta_1>Tratado de Sèvres</resposta_1>
+						<resposta_2>Declaração Balfour</resposta_2>
+						<resposta_3>Acordo Sykes-Picot</resposta_3>
+						<resposta_4>Conferência de Yalta</resposta_4>
+					</respostas>
+					<respostacerta>Acordo Sykes-Picot</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Que civilização pré-colombiana possuía uma escrita hieroglífica complexa e um calendário astronómico altamente preciso de 365 dias?</texto>
+					<respostas>
+						<resposta_1>Maia</resposta_1>
+						<resposta_2>Asteca</resposta_2>
+						<resposta_3>Inca</resposta_3>
+						<resposta_4>Olmeca</resposta_4>
+					</respostas>
+					<respostacerta>Maia</respostacerta>
+				</pergunta_10>
+			</nivel_3>
+		</tema_historia>
+
+		<tema_cinema>
+			<nivel_1>
+				<pergunta_1>
+					<texto>Qual é o nome do prémio anual mais prestigiado do cinema mundial, entregue pela Academia em Hollywood?</texto>
+					<respostas>
+						<resposta_1>Leão de Ouro</resposta_1>
+						<resposta_2>Globo de Ouro</resposta_2>
+						<resposta_3>Palma de Ouro</resposta_3>
+						<resposta_4>Óscar</resposta_4>
+					</respostas>
+					<respostacerta>Óscar</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Quem realizou os famosos filmes de ficção científica "E.T. - O Extraterrestre" e "Jurassic Park"?</texto>
+					<respostas>
+						<resposta_1>Martin Scorsese</resposta_1>
+						<resposta_2>James Cameron</resposta_2>
+						<resposta_3>Christopher Nolan</resposta_3>
+						<resposta_4>Steven Spielberg</resposta_4>
+					</respostas>
+					<respostacerta>Steven Spielberg</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual é a coral da icónica pílula que Neo toma no filme "Matrix" para descobrir a verdade?</texto>
+					<respostas>
+						<resposta_1>Amarela</resposta_1>
+						<resposta_2>Azul</resposta_2>
+						<resposta_3>Verde</resposta_3>
+						<resposta_4>Vermelha</resposta_4>
+					</respostas>
+					<respostacerta>Vermelha</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Quem interpreta a icónica personagem Jack Dawson no romance trágico "Titanic" de 1997?</texto>
+					<respostas>
+						<resposta_1>Matt Damon</resposta_1>
+						<resposta_2>Brad Pitt</resposta_2>
+						<resposta_3>Tom Cruise</resposta_3>
+						<resposta_4>Leonardo DiCaprio</resposta_4>
+					</respostas>
+					<respostacerta>Leonardo DiCaprio</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual é a principal espécie de criatura mítica que protagoniza o filme de animação "Shrek"?</texto>
+					<respostas>
+						<resposta_1>Troll</resposta_1>
+						<resposta_2>Duende</resposta_2>
+						<resposta_3>Dragão</resposta_3>
+						<resposta_4>Ogre</resposta_4>
+					</respostas>
+					<respostacerta>Ogre</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Que ator interpretou o papel do agente secreto James Bond 007 em filmes como "Casino Royale" e "Skyfall"?</texto>
+					<respostas>
+						<resposta_1>Roger Moore</resposta_1>
+						<resposta_2>Pierce Brosnan</resposta_2>
+						<resposta_3>Sean Connery</resposta_3>
+						<resposta_4>Daniel Craig</resposta_4>
+					</respostas>
+					<respostacerta>Daniel Craig</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>De que universo cinematográfico fazem parte heróis como o Homem de Ferro, Capitão América e Thor?</texto>
+					<respostas>
+						<resposta_1>Transformers</resposta_1>
+						<resposta_2>DC Extended Universe</resposta_2>
+						<resposta_3>Star Wars</resposta_3>
+						<resposta_4>Marvel (MCU)</resposta_4>
+					</respostas>
+					<respostacerta>Marvel (MCU)</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Qual é o nome da famosa saga cinematográfica de fantasia baseada nos livros de J.K. Rowling?</texto>
+					<respostas>
+						<resposta_1>Percy Jackson</resposta_1>
+						<resposta_2>O Senhor dos Anéis</resposta_2>
+						<resposta_3>As Crónicas de Nárnia</resposta_3>
+						<resposta_4>Harry Potter</resposta_4>
+					</respostas>
+					<respostacerta>Harry Potter</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Qual é o nome do leão protagonista no clássico de animação da Disney "O Rei Leão"?</texto>
+					<respostas>
+						<resposta_1>Pumba</resposta_1>
+						<resposta_2>Mufasa</resposta_2>
+						<resposta_3>Scar</resposta_3>
+						<resposta_4>Simba</resposta_4>
+					</respostas>
+					<respostacerta>Simba</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Em que icónica cidade norte-americana se passa a maior parte da história de "Maniac Cop" e "Spider-Man"?</texto>
+					<respostas>
+						<resposta_1>Miami</resposta_1>
+						<resposta_2>Los Angeles</resposta_2>
+						<resposta_3>Chicago</resposta_3>
+						<resposta_4>Nova Iorque</resposta_4>
+					</respostas>
+					<respostacerta>Nova Iorque</respostacerta>
+				</pergunta_10>
+			</nivel_1>
+			<nivel_2>
+				<pergunta_1>
+					<texto>Quem realizou a trilogia épica de "O Senhor dos Anéis"?</texto>
+					<respostas>
+						<resposta_1>Ridley Scott</resposta_1>
+						<resposta_2>George Lucas</resposta_2>
+						<resposta_3>Peter Jackson</resposta_3>
+						<resposta_4>James Cameron</resposta_4>
+					</respostas>
+					<respostacerta>Peter Jackson</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Qual é o título do filme de terror de 1973 em que uma jovem rapariga é possuída por um demónio?</texto>
+					<respostas>
+						<resposta_1>Poltergeist</resposta_1>
+						<resposta_2>The Shining</resposta_2>
+						<resposta_3>O Exorcista</resposta_3>
+						<resposta_4>Psycho</resposta_4>
+					</respostas>
+					<respostacerta>O Exorcista</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual destes filmes de animação foi o primeiro longa-metragem totalmente computorizado da Pixar?</texto>
+					<respostas>
+						<resposta_1>Monsters, Inc.</resposta_1>
+						<resposta_2>A Bug's Life</resposta_2>
+						<resposta_3>Toy Story</resposta_3>
+						<resposta_4>Finding Nemo</resposta_4>
+					</respostas>
+					<respostacerta>Toy Story</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Quem interpreta o papel principal de Vito Corleone no aclamado filme de máfia "O Padrinho" (1972)?</texto>
+					<respostas>
+						<resposta_1>Robert De Niro</resposta_1>
+						<resposta_2>Al Pacino</resposta_2>
+						<resposta_3>Marlon Brando</resposta_3>
+						<resposta_4>Dustin Hoffman</resposta_4>
+					</respostas>
+					<respostacerta>Marlon Brando</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual é a profissão da personagem interpretada por Tom Hanks no filme "Forrest Gump"?</texto>
+					<respostas>
+						<resposta_1>O filme mostra-o em várias funções, incluindo soldado e atleta</resposta_1>
+						<resposta_2>Piloto de Aviões</resposta_2>
+						<resposta_3>Advogado Criminalista</resposta_3>
+						<resposta_4>Médico Cirurgião</resposta_4>
+					</respostas>
+					<respostacerta>O filme mostra-o em várias funções, incluindo soldado e atleta</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Qual é o nome do cineasta conhecido como o "Mestre do Suspense", responsável por "Psycho" e "Vertigo"?</texto>
+					<respostas>
+						<resposta_1>Alfred Hitchcock</resposta_1>
+						<resposta_2>Stanley Kubrick</resposta_2>
+						<resposta_3>Quentin Tarantino</resposta_3>
+						<resposta_4>Orson Welles</resposta_4>
+					</respostas>
+					<respostacerta>Alfred Hitchcock</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Em que país se organiza anualmente o prestigiado Festival de Cinema de Cannes?</texto>
+					<respostas>
+						<resposta_1>Alemanha</resposta_1>
+						<resposta_2>Itália</resposta_2>
+						<resposta_3>Espanha</resposta_3>
+						<resposta_4>França</resposta_4>
+					</respostas>
+					<respostacerta>França</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Qual é o nome da galáxia ou localização onde decorre a ação da saga "Star Wars"?</texto>
+					<respostas>
+						<resposta_1>Numa galáxia distante, muito distante</resposta_1>
+						<resposta_2>Na Via Láctea</resposta_2>
+						<resposta_3>Na Galáxia de Andrómeda</resposta_3>
+						<resposta_4>No Sistema Solar Alfa Centauri</resposta_4>
+					</respostas>
+					<respostacerta>Numa galáxia distante, muito distante</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Que actor ganhou o Óscar de Melhor Ator Principal pelo seu papel no aclamado filme "Joker" de 2019?</texto>
+					<respostas>
+						<resposta_1>Leonardo DiCaprio</resposta_1>
+						<resposta_2>Heath Ledger</resposta_2>
+						<resposta_3>Christian Bale</resposta_3>
+						<resposta_4>Joaquin Phoenix</resposta_4>
+					</respostas>
+					<respostacerta>Joaquin Phoenix</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Qual destas atrizes interpretou a icónica cientista Dr.ª Ryan Stone no filme de ficção científica "Gravity"?</texto>
+					<respostas>
+						<resposta_1>Julia Roberts</resposta_1>
+						<resposta_2>Cate Blanchett</resposta_2>
+						<resposta_3>Angelina Jolie</resposta_3>
+						<resposta_4>Sandra Bullock</resposta_4>
+					</respostas>
+					<respostacerta>Sandra Bullock</respostacerta>
+				</pergunta_10>
+			</nivel_2>
+			<nivel_3>
+				<pergunta_1>
+					<texto>Qual foi o primeiro filme falado da história do cinema, lançado em 1927?</texto>
+					<respostas>
+						<resposta_1>Asas (Wings)</resposta_1>
+						<resposta_2>Metropolis</resposta_2>
+						<resposta_3>Tempos Modernos</resposta_3>
+						<resposta_4>O Cantor de Jazz (The Jazz Singer)</resposta_4>
+					</respostas>
+					<respostacerta>O Cantor de Jazz (The Jazz Singer)</respostacerta>
+				</pergunta_1>
+				<pergunta_2>
+					<texto>Quem realizou a aclamada obra-prima de ficção científica de 1968, "2001: Odisseia no Espaço"?</texto>
+					<respostas>
+						<resposta_1>George Lucas</resposta_1>
+						<resposta_2>Ridley Scott</resposta_2>
+						<resposta_3>Stanley Kubrick</resposta_3>
+						<resposta_4>Steven Spielberg</resposta_4>
+					</respostas>
+					<respostacerta>Stanley Kubrick</respostacerta>
+				</pergunta_2>
+				<pergunta_3>
+					<texto>Qual é o nome do primeiro filme de longa-metragem animado a cores da história da Disney, lançado em 1937?</texto>
+					<respostas>
+						<resposta_1>Branca de Neve e os Sete Anões</resposta_1>
+						<resposta_2>Pinóquio</resposta_2>
+						<resposta_3>Fantasia</resposta_3>
+						<resposta_4>Dumbo</resposta_4>
+					</respostas>
+					<respostacerta>Branca de Neve e os Sete Anões</respostacerta>
+				</pergunta_3>
+				<pergunta_4>
+					<texto>Quantos Óscares da Academia ganhou o filme "Ben-Hur" (1959), um recorde partilhado apenas com "Titanic" e "O Senhor dos Anéis: O Regresso do Rei"?</texto>
+					<respostas>
+						<resposta_1>9 Óscares</resposta_1>
+						<resposta_2>10 Óscares</resposta_2>
+						<resposta_3>12 Óscares</resposta_3>
+						<resposta_4>11 Óscares</resposta_4>
+					</respostas>
+					<respostacerta>11 Óscares</respostacerta>
+				</pergunta_4>
+				<pergunta_5>
+					<texto>Qual é o nome do realizador japonês responsável por clássicos absolutos como "Os Sete Samurais" e "Rashomon"?</texto>
+					<respostas>
+						<resposta_1>Takeshi Kitano</resposta_1>
+						<resposta_2>Hayao Miyazaki</resposta_2>
+						<resposta_3>Yasujiro Ozu</resposta_3>
+						<resposta_4>Akira Kurosawa</resposta_4>
+					</respostas>
+					<respostacerta>Akira Kurosawa</respostacerta>
+				</pergunta_5>
+				<pergunta_6>
+					<texto>Quem é o compositor das lendárias e icónicas bandas sonoras de "Star Wars", "Indiana Jones" e "Tubarão"?</texto>
+					<respostas>
+						<resposta_1>Howard Shore</resposta_1>
+						<resposta_2>Hans Zimmer</resposta_2>
+						<resposta_3>Ennio Morricone</resposta_3>
+						<resposta_4>John Williams</resposta_4>
+					</respostas>
+					<respostacerta>John Williams</respostacerta>
+				</pergunta_6>
+				<pergunta_7>
+					<texto>Que filme sul-coreano de 2019 fez história ao tornar-se o primeiro filme de língua não inglesa a vencer o Óscar de Melhor Filme?</texto>
+					<respostas>
+						<resposta_1>Roma</resposta_1>
+						<resposta_2>Parasitas (Parasite)</resposta_2>
+						<resposta_3>Oldboy</resposta_3>
+						<resposta_4>O Tigre e o Dragão</resposta_4>
+					</respostas>
+					<respostacerta>Parasitas (Parasite)</respostacerta>
+				</pergunta_7>
+				<pergunta_8>
+					<texto>Qual foi o filme de estreia do aclamado realizador Quentin Tarantino lançado em 1992?</texto>
+					<respostas>
+						<resposta_1>Pulp Fiction</resposta_1>
+						<resposta_2>Cães Danados (Reservoir Dogs)</resposta_2>
+						<resposta_3>Jackie Brown</resposta_3>
+						<resposta_4>Kill Bill</resposta_4>
+					</respostas>
+					<respostacerta>Cães Danados (Reservoir Dogs)</respostacerta>
+				</pergunta_8>
+				<pergunta_9>
+					<texto>Qual é o nome da icónica personagem interpretada por Orson Welles num clássico "Citizen Kane" de 1941?</texto>
+					<respostas>
+						<resposta_1>Bernstein</resposta_1>
+						<resposta_2>Jedediah Leland</resposta_2>
+						<resposta_3>Walter Parks Thatcher</resposta_3>
+						<resposta_4>Charles Foster Kane</resposta_4>
+					</respostas>
+					<respostacerta>Charles Foster Kane</respostacerta>
+				</pergunta_9>
+				<pergunta_10>
+					<texto>Que inovador filme de ficção científica de 1927, realizado por Fritz Lang, é considerado um dos marcos do expressionismo alemão?</texto>
+					<respostas>
+						<resposta_1>Nosferatu</resposta_1>
+						<resposta_2>O Gabinete do Dr. Caligari</resposta_2>
+						<resposta_3>Metropolis</resposta_3>
+						<resposta_4>M - O Vampiro de Düsseldorf</resposta_4>
+					</respostas>
+					<respostacerta>Metropolis</respostacerta>
+				</pergunta_10>
+			</nivel_3>
+		</tema_cinema>
+	</perguntas>
+</quiz>

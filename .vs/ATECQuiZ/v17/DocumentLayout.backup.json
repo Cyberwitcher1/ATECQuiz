@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\atecquiz\\cinema_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\cinema_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\sports_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\sports_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\sports_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\sports_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 212,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sports_1.cs",
+              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Sports_1.cs",
+              "RelativeDocumentMoniker": "ATECQuiZ\\Sports_1.cs",
+              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Sports_1.cs",
+              "RelativeToolTip": "ATECQuiZ\\Sports_1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAP0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T17:57:47.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sports_1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Sports_1.cs",
+              "RelativeDocumentMoniker": "ATECQuiZ\\Sports_1.cs",
+              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Sports_1.cs [Design]",
+              "RelativeToolTip": "ATECQuiZ\\Sports_1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T17:57:45.925Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
+              "RelativeDocumentMoniker": "ATECQuiZ\\Menu.cs",
+              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs [Design]",
+              "RelativeToolTip": "ATECQuiZ\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:56:20.265Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
+              "RelativeDocumentMoniker": "ATECQuiZ\\Menu.cs",
+              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
+              "RelativeToolTip": "ATECQuiZ\\Menu.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwHIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:56:24.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cinema_1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Cinema_1.cs",
+              "RelativeDocumentMoniker": "ATECQuiZ\\Cinema_1.cs",
+              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Cinema_1.cs [Design]",
+              "RelativeToolTip": "ATECQuiZ\\Cinema_1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:55:58.906Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
