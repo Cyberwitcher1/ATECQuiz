@@ -33,6 +33,7 @@
             this.lbl_result = new System.Windows.Forms.Label();
             this.lbl_correct = new System.Windows.Forms.Label();
             this.lbl_wrong = new System.Windows.Forms.Label();
+            this.btn_back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_games
@@ -97,12 +98,23 @@
             this.lbl_wrong.TabIndex = 9;
             this.lbl_wrong.Text = "Erradas";
             // 
+            // btn_back
+            // 
+            this.btn_back.Location = new System.Drawing.Point(326, 542);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(188, 72);
+            this.btn_back.TabIndex = 11;
+            this.btn_back.Text = "button1";
+            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
             // Score
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ATECQuiZ.Properties.Resources.back1;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.lbl_wrong);
             this.Controls.Add(this.lbl_correct);
             this.Controls.Add(this.lbl_result);
@@ -122,5 +134,6 @@
         private System.Windows.Forms.Label lbl_result;
         private System.Windows.Forms.Label lbl_correct;
         private System.Windows.Forms.Label lbl_wrong;
+        private System.Windows.Forms.Button btn_back;
     }
 }

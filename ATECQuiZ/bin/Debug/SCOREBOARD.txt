@@ -1,0 +1,7 @@
+Rui 30
+Pedro 40
+Rui 30
+Ricardo 0
+Ricardo 0
+Ricardo 0
+Rui 0

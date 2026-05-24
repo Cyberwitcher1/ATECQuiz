@@ -236,6 +236,10 @@ namespace ATECQuiZ
             form2.ShowDialog();
         }
 
+        private void updateScore()
+        {
+        }
+
         private void btn_answer_Click(object sender, EventArgs e)
         {
             CheckQuestion();

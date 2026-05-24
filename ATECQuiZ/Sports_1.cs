@@ -22,7 +22,6 @@ namespace ATECQuiZ
         public Sports_1()
         {
             InitializeComponent();
-
             XmlDocument doc = new XmlDocument();
             doc.Load("quiz.xml");
 

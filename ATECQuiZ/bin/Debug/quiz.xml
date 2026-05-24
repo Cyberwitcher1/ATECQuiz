@@ -11,7 +11,7 @@
 						<resposta_3>Stephen Curry</resposta_3>
 						<resposta_4>Kareem Abdul-Jabbar</resposta_4>
 					</respostas>
-					<respostacerta>Grécia</respostacerta>
+					<respostacerta>Michael Jordan</respostacerta>
 				</pergunta_1>
 				<pergunta_2>
 					<texto>Qual destas modalidades é conhecida como o "desporto-rei" em Portugal?</texto>
@@ -784,14 +784,14 @@
 					<respostacerta>Alfred Hitchcock</respostacerta>
 				</pergunta_6>
 				<pergunta_7>
-					<texto>Em que país se organiza anualmente o prestigiado Festival de Cinema de Cannes?</texto>
+					<texto>Quando é que saiu o primeiro filme de The Matrix?</texto>
 					<respostas>
-						<resposta_1>Alemanha</resposta_1>
-						<resposta_2>Itália</resposta_2>
-						<resposta_3>Espanha</resposta_3>
-						<resposta_4>França</resposta_4>
+						<resposta_1>1994</resposta_1>
+						<resposta_2>1995</resposta_2>
+						<resposta_3>1999</resposta_3>
+						<resposta_4>1997</resposta_4>
 					</respostas>
-					<respostacerta>França</respostacerta>
+					<respostacerta>1999</respostacerta>
 				</pergunta_7>
 				<pergunta_8>
 					<texto>Qual é o nome da galáxia ou localização onde decorre a ação da saga "Star Wars"?</texto>
@@ -804,24 +804,24 @@
 					<respostacerta>Numa galáxia distante, muito distante</respostacerta>
 				</pergunta_8>
 				<pergunta_9>
-					<texto>Que actor ganhou o Óscar de Melhor Ator Principal pelo seu papel no aclamado filme "Joker" de 2019?</texto>
+					<texto>Como se chama o ator que faz de Rubeus Hagrid nos filmes do Harry Potter?</texto>
 					<respostas>
-						<resposta_1>Leonardo DiCaprio</resposta_1>
-						<resposta_2>Heath Ledger</resposta_2>
-						<resposta_3>Christian Bale</resposta_3>
-						<resposta_4>Joaquin Phoenix</resposta_4>
+						<resposta_1>Sandro Martines</resposta_1>
+						<resposta_2>Robbie Coltrane</resposta_2>
+						<resposta_3>Brendan Gleeson</resposta_3>
+						<resposta_4>Bob Hoskins</resposta_4>
 					</respostas>
-					<respostacerta>Joaquin Phoenix</respostacerta>
+					<respostacerta>Robbie Coltrane</respostacerta>
 				</pergunta_9>
 				<pergunta_10>
-					<texto>Qual destas atrizes interpretou a icónica cientista Dr.ª Ryan Stone no filme de ficção científica "Gravity"?</texto>
+					<texto>Qual é o nome do demónio no filme The Conjuring?</texto>
 					<respostas>
-						<resposta_1>Julia Roberts</resposta_1>
-						<resposta_2>Cate Blanchett</resposta_2>
-						<resposta_3>Angelina Jolie</resposta_3>
-						<resposta_4>Sandra Bullock</resposta_4>
+						<resposta_1>Bathsheba</resposta_1>
+						<resposta_2>Annabelle</resposta_2>
+						<resposta_3>The Occultist</resposta_3>
+						<resposta_4>Valak</resposta_4>
 					</respostas>
-					<respostacerta>Sandra Bullock</respostacerta>
+					<respostacerta>Bathsheba</respostacerta>
 				</pergunta_10>
 			</nivel_2>
 			<nivel_3>

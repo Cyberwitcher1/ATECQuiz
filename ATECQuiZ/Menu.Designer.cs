@@ -40,6 +40,12 @@
             this.btn_cinema = new System.Windows.Forms.Button();
             this.btn_sport = new System.Windows.Forms.Button();
             this.btn_mix = new System.Windows.Forms.Button();
+            this.lbl_score = new System.Windows.Forms.Label();
+            this.tb_name = new System.Windows.Forms.TextBox();
+            this.lbl_name = new System.Windows.Forms.Label();
+            this.btn_name = new System.Windows.Forms.Button();
+            this.lbl_score_updated = new System.Windows.Forms.Label();
+            this.btn_leaderboard = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_start
@@ -72,11 +78,11 @@
             // 
             this.lbl_games.AutoSize = true;
             this.lbl_games.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_games.Font = new System.Drawing.Font("Ravie", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_games.Font = new System.Drawing.Font("Ravie", 75.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_games.ForeColor = System.Drawing.Color.White;
-            this.lbl_games.Location = new System.Drawing.Point(292, 45);
+            this.lbl_games.Location = new System.Drawing.Point(293, 9);
             this.lbl_games.Name = "lbl_games";
-            this.lbl_games.Size = new System.Drawing.Size(701, 129);
+            this.lbl_games.Size = new System.Drawing.Size(738, 134);
             this.lbl_games.TabIndex = 3;
             this.lbl_games.Text = "ATECQuiz!";
             this.lbl_games.Click += new System.EventHandler(this.lbl_games_Click);
@@ -87,7 +93,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Ravie", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(458, 287);
+            this.label1.Location = new System.Drawing.Point(476, 287);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 26);
             this.label1.TabIndex = 5;
@@ -99,7 +105,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Ravie", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(676, 287);
+            this.label2.Location = new System.Drawing.Point(677, 287);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(157, 26);
             this.label2.TabIndex = 6;
@@ -110,9 +116,9 @@
             this.btn_level1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_level1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_level1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_level1.Location = new System.Drawing.Point(700, 325);
+            this.btn_level1.Location = new System.Drawing.Point(718, 316);
             this.btn_level1.Name = "btn_level1";
-            this.btn_level1.Size = new System.Drawing.Size(100, 50);
+            this.btn_level1.Size = new System.Drawing.Size(76, 50);
             this.btn_level1.TabIndex = 7;
             this.btn_level1.Text = "Level1";
             this.btn_level1.UseVisualStyleBackColor = false;
@@ -123,9 +129,9 @@
             this.btn_level3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_level3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_level3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_level3.Location = new System.Drawing.Point(700, 425);
+            this.btn_level3.Location = new System.Drawing.Point(718, 416);
             this.btn_level3.Name = "btn_level3";
-            this.btn_level3.Size = new System.Drawing.Size(100, 50);
+            this.btn_level3.Size = new System.Drawing.Size(76, 50);
             this.btn_level3.TabIndex = 8;
             this.btn_level3.Text = "Level3";
             this.btn_level3.UseVisualStyleBackColor = false;
@@ -136,9 +142,9 @@
             this.btn_level2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_level2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_level2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_level2.Location = new System.Drawing.Point(700, 375);
+            this.btn_level2.Location = new System.Drawing.Point(718, 366);
             this.btn_level2.Name = "btn_level2";
-            this.btn_level2.Size = new System.Drawing.Size(100, 50);
+            this.btn_level2.Size = new System.Drawing.Size(76, 50);
             this.btn_level2.TabIndex = 9;
             this.btn_level2.Text = "Level2";
             this.btn_level2.UseVisualStyleBackColor = false;
@@ -150,9 +156,9 @@
             this.btn_history.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_history.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_history.ForeColor = System.Drawing.Color.White;
-            this.btn_history.Location = new System.Drawing.Point(500, 375);
+            this.btn_history.Location = new System.Drawing.Point(518, 366);
             this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(100, 50);
+            this.btn_history.Size = new System.Drawing.Size(76, 50);
             this.btn_history.TabIndex = 12;
             this.btn_history.Text = "História";
             this.btn_history.UseVisualStyleBackColor = false;
@@ -164,9 +170,9 @@
             this.btn_cinema.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cinema.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cinema.ForeColor = System.Drawing.Color.White;
-            this.btn_cinema.Location = new System.Drawing.Point(500, 425);
+            this.btn_cinema.Location = new System.Drawing.Point(518, 416);
             this.btn_cinema.Name = "btn_cinema";
-            this.btn_cinema.Size = new System.Drawing.Size(100, 50);
+            this.btn_cinema.Size = new System.Drawing.Size(76, 50);
             this.btn_cinema.TabIndex = 11;
             this.btn_cinema.Text = "Cinema";
             this.btn_cinema.UseVisualStyleBackColor = false;
@@ -177,9 +183,9 @@
             this.btn_sport.BackColor = System.Drawing.Color.White;
             this.btn_sport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sport.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sport.Location = new System.Drawing.Point(500, 325);
+            this.btn_sport.Location = new System.Drawing.Point(518, 316);
             this.btn_sport.Name = "btn_sport";
-            this.btn_sport.Size = new System.Drawing.Size(100, 50);
+            this.btn_sport.Size = new System.Drawing.Size(76, 50);
             this.btn_sport.TabIndex = 10;
             this.btn_sport.Text = "Desporto";
             this.btn_sport.UseVisualStyleBackColor = false;
@@ -189,22 +195,96 @@
             // 
             this.btn_mix.BackColor = System.Drawing.Color.Gold;
             this.btn_mix.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_mix.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mix.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mix.ForeColor = System.Drawing.Color.Black;
-            this.btn_mix.Location = new System.Drawing.Point(548, 481);
+            this.btn_mix.Location = new System.Drawing.Point(583, 472);
             this.btn_mix.Name = "btn_mix";
-            this.btn_mix.Size = new System.Drawing.Size(211, 106);
+            this.btn_mix.Size = new System.Drawing.Size(150, 50);
             this.btn_mix.TabIndex = 13;
             this.btn_mix.Text = "Mix ATEC! (Incompleto)";
             this.btn_mix.UseVisualStyleBackColor = false;
             this.btn_mix.Click += new System.EventHandler(this.btn_mix_Click);
             // 
+            // lbl_score
+            // 
+            this.lbl_score.AutoSize = true;
+            this.lbl_score.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_score.Font = new System.Drawing.Font("Ravie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_score.ForeColor = System.Drawing.Color.White;
+            this.lbl_score.Location = new System.Drawing.Point(379, 576);
+            this.lbl_score.Name = "lbl_score";
+            this.lbl_score.Size = new System.Drawing.Size(227, 36);
+            this.lbl_score.TabIndex = 14;
+            this.lbl_score.Text = "Score atual";
+            // 
+            // tb_name
+            // 
+            this.tb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_name.Location = new System.Drawing.Point(544, 193);
+            this.tb_name.Name = "tb_name";
+            this.tb_name.Size = new System.Drawing.Size(206, 31);
+            this.tb_name.TabIndex = 15;
+            // 
+            // lbl_name
+            // 
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.ForeColor = System.Drawing.Color.White;
+            this.lbl_name.Location = new System.Drawing.Point(485, 160);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(139, 30);
+            this.lbl_name.TabIndex = 16;
+            this.lbl_name.Text = "lbl_name";
+            this.lbl_name.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // btn_name
+            // 
+            this.btn_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_name.ForeColor = System.Drawing.Color.Black;
+            this.btn_name.Location = new System.Drawing.Point(592, 230);
+            this.btn_name.Name = "btn_name";
+            this.btn_name.Size = new System.Drawing.Size(112, 31);
+            this.btn_name.TabIndex = 17;
+            this.btn_name.Text = "Adicionar";
+            this.btn_name.UseVisualStyleBackColor = true;
+            this.btn_name.Click += new System.EventHandler(this.btn_nome_Click);
+            // 
+            // lbl_score_updated
+            // 
+            this.lbl_score_updated.AutoSize = true;
+            this.lbl_score_updated.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_score_updated.Font = new System.Drawing.Font("Ravie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_score_updated.ForeColor = System.Drawing.Color.White;
+            this.lbl_score_updated.Location = new System.Drawing.Point(799, 576);
+            this.lbl_score_updated.Name = "lbl_score_updated";
+            this.lbl_score_updated.Size = new System.Drawing.Size(0, 36);
+            this.lbl_score_updated.TabIndex = 18;
+            this.lbl_score_updated.Click += new System.EventHandler(this.lbl_score_updated_Click);
+            // 
+            // btn_leaderboard
+            // 
+            this.btn_leaderboard.Location = new System.Drawing.Point(1192, -1);
+            this.btn_leaderboard.Name = "btn_leaderboard";
+            this.btn_leaderboard.Size = new System.Drawing.Size(75, 23);
+            this.btn_leaderboard.TabIndex = 19;
+            this.btn_leaderboard.Text = "Leaderboard";
+            this.btn_leaderboard.UseVisualStyleBackColor = true;
+            this.btn_leaderboard.Click += new System.EventHandler(this.btn_leaderboard_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ATECQuiZ.Properties.Resources.back1;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btn_leaderboard);
+            this.Controls.Add(this.lbl_score_updated);
+            this.Controls.Add(this.btn_name);
+            this.Controls.Add(this.lbl_name);
+            this.Controls.Add(this.tb_name);
+            this.Controls.Add(this.lbl_score);
             this.Controls.Add(this.btn_mix);
             this.Controls.Add(this.btn_history);
             this.Controls.Add(this.btn_cinema);
@@ -239,6 +319,12 @@
         private System.Windows.Forms.Button btn_cinema;
         private System.Windows.Forms.Button btn_sport;
         private System.Windows.Forms.Button btn_mix;
+        private System.Windows.Forms.Label lbl_score;
+        private System.Windows.Forms.TextBox tb_name;
+        private System.Windows.Forms.Label lbl_name;
+        private System.Windows.Forms.Button btn_name;
+        public System.Windows.Forms.Label lbl_score_updated;
+        private System.Windows.Forms.Button btn_leaderboard;
     }
 }
 

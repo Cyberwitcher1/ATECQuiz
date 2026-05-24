@@ -8,6 +8,8 @@ namespace ATECQuiZ
 {
     internal static class Program
     {
+        public static string name = "";
+        public static int global_score =0;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

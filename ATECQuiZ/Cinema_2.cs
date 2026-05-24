@@ -16,7 +16,7 @@ namespace ATECQuiZ
         private int correct = 0;
         private int wrong = 0;
         private int counter = 1;
-        bool button1, button2, button3, button4;
+        private bool button1, button2, button3, button4;
 
         public Cinema_2()
         {
@@ -65,6 +65,7 @@ namespace ATECQuiZ
         {
             XmlDocument doc = new XmlDocument();
             doc.Load("quiz.xml");
+
             if (counter == 2)
             {
                 lbl_sport.Text = doc.SelectSingleNode("/quiz/perguntas/tema_cinema/nivel_2/pergunta_2/texto").InnerText;
