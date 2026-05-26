@@ -100,12 +100,15 @@
             // 
             // btn_back
             // 
+            this.btn_back.BackColor = System.Drawing.Color.White;
+            this.btn_back.Font = new System.Drawing.Font("Ravie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.ForeColor = System.Drawing.Color.Black;
             this.btn_back.Location = new System.Drawing.Point(326, 542);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(188, 72);
+            this.btn_back.Size = new System.Drawing.Size(201, 90);
             this.btn_back.TabIndex = 11;
-            this.btn_back.Text = "button1";
-            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Text = "Voltar ao menu!";
+            this.btn_back.UseVisualStyleBackColor = false;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // Score

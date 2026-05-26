@@ -42,12 +42,12 @@
             // 
             // btn_answer
             // 
-            this.btn_answer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_answer.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_answer.Location = new System.Drawing.Point(511, 569);
             this.btn_answer.Name = "btn_answer";
             this.btn_answer.Size = new System.Drawing.Size(242, 61);
             this.btn_answer.TabIndex = 29;
-            this.btn_answer.Text = "Escolha a resposta certa!";
+            this.btn_answer.Text = "Próxima";
             this.btn_answer.UseVisualStyleBackColor = true;
             this.btn_answer.Click += new System.EventHandler(this.btn_answer_Click);
             // 

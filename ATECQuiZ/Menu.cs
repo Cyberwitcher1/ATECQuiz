@@ -41,11 +41,10 @@ namespace ATECQuiZ
             }
             UpdateScore(Program.global_score);
 
-            SoundPlayer player = new SoundPlayer(@"audio\tumtum.wav");
+            /*SoundPlayer player = new SoundPlayer(@"audio\tumtum.wav");
             player.Load();
-            player.Play();
+            player.Play();*/
         }
-
         public void UpdateScore(int score)
         {
             lbl_score_updated.Text = "Pontuação atual: " + score.ToString();
@@ -70,7 +69,7 @@ namespace ATECQuiZ
             else if(Program.global_score != 0 && File.Exists("SCOREBOARD.txt")) {
                 using (StreamWriter sw = File.AppendText("SCOREBOARD.txt"))
                 {
-                    sw.WriteLine(Program.name + " " + Program.global_score); 
+                    sw.WriteLine(Program.global_score + " " + Program.name); 
                 }
             }
             else
@@ -212,7 +211,8 @@ namespace ATECQuiZ
                         scoreList.Add(line);
                     }
                     scoreList.Sort();
-                    MessageBox.Show(string.Join(Environment.NewLine, scoreList));
+                    scoreList.Reverse();
+                    MessageBox.Show("Top " + (1) + " : " + scoreList[0] + "\nTop " + (2) + " : " + scoreList[1] + "\nTop " + (3) + " : " + scoreList[2]);
                 }
             }
         }

@@ -154,7 +154,6 @@ namespace ATECQuiZ
 
             if (button1 == true)
             {
-
                 if (doc.SelectSingleNode("/quiz/perguntas/tema_desporto/nivel_1/pergunta_" + counter + "/respostacerta").InnerText == lbl_first.Text)
                 {
                     correct++;
