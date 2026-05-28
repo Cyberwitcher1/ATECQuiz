@@ -5,3 +5,11 @@
 10 Afonso
 30 Rui
 10 Jaimão
+30 
+30 Teste
+10 Teste2
+10 Cenas
+50 cine1
+120 teste1
+30 teste2
+60 Ricardo

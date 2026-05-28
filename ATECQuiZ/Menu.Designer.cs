@@ -40,12 +40,12 @@
             this.btn_cinema = new System.Windows.Forms.Button();
             this.btn_sport = new System.Windows.Forms.Button();
             this.btn_mix = new System.Windows.Forms.Button();
-            this.lbl_score = new System.Windows.Forms.Label();
             this.tb_name = new System.Windows.Forms.TextBox();
             this.lbl_name = new System.Windows.Forms.Label();
             this.btn_name = new System.Windows.Forms.Button();
             this.lbl_score_updated = new System.Windows.Forms.Label();
             this.btn_leaderboard = new System.Windows.Forms.Button();
+            this.cb_music = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btn_start
@@ -205,18 +205,6 @@
             this.btn_mix.UseVisualStyleBackColor = false;
             this.btn_mix.Click += new System.EventHandler(this.btn_mix_Click);
             // 
-            // lbl_score
-            // 
-            this.lbl_score.AutoSize = true;
-            this.lbl_score.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_score.Font = new System.Drawing.Font("Ravie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_score.ForeColor = System.Drawing.Color.White;
-            this.lbl_score.Location = new System.Drawing.Point(379, 576);
-            this.lbl_score.Name = "lbl_score";
-            this.lbl_score.Size = new System.Drawing.Size(227, 36);
-            this.lbl_score.TabIndex = 14;
-            this.lbl_score.Text = "Score atual";
-            // 
             // tb_name
             // 
             this.tb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -256,21 +244,34 @@
             this.lbl_score_updated.BackColor = System.Drawing.Color.Transparent;
             this.lbl_score_updated.Font = new System.Drawing.Font("Ravie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_score_updated.ForeColor = System.Drawing.Color.White;
-            this.lbl_score_updated.Location = new System.Drawing.Point(799, 576);
+            this.lbl_score_updated.Location = new System.Drawing.Point(244, 568);
             this.lbl_score_updated.Name = "lbl_score_updated";
-            this.lbl_score_updated.Size = new System.Drawing.Size(0, 36);
+            this.lbl_score_updated.Size = new System.Drawing.Size(130, 36);
             this.lbl_score_updated.TabIndex = 18;
+            this.lbl_score_updated.Text = "SCORE";
             this.lbl_score_updated.Click += new System.EventHandler(this.lbl_score_updated_Click);
             // 
             // btn_leaderboard
             // 
-            this.btn_leaderboard.Location = new System.Drawing.Point(1192, -1);
+            this.btn_leaderboard.Location = new System.Drawing.Point(1189, 659);
             this.btn_leaderboard.Name = "btn_leaderboard";
             this.btn_leaderboard.Size = new System.Drawing.Size(75, 23);
             this.btn_leaderboard.TabIndex = 19;
             this.btn_leaderboard.Text = "Leaderboard";
             this.btn_leaderboard.UseVisualStyleBackColor = true;
             this.btn_leaderboard.Click += new System.EventHandler(this.btn_leaderboard_Click);
+            // 
+            // cb_music
+            // 
+            this.cb_music.AutoSize = true;
+            this.cb_music.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_music.Location = new System.Drawing.Point(0, 662);
+            this.cb_music.Name = "cb_music";
+            this.cb_music.Size = new System.Drawing.Size(110, 19);
+            this.cb_music.TabIndex = 20;
+            this.cb_music.Text = "Music ON/OFF";
+            this.cb_music.UseVisualStyleBackColor = true;
+            this.cb_music.CheckedChanged += new System.EventHandler(this.cb_music_CheckedChanged);
             // 
             // Menu
             // 
@@ -279,12 +280,12 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ATECQuiZ.Properties.Resources.back1;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.cb_music);
             this.Controls.Add(this.btn_leaderboard);
             this.Controls.Add(this.lbl_score_updated);
             this.Controls.Add(this.btn_name);
             this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.tb_name);
-            this.Controls.Add(this.lbl_score);
             this.Controls.Add(this.btn_mix);
             this.Controls.Add(this.btn_history);
             this.Controls.Add(this.btn_cinema);
@@ -319,12 +320,12 @@
         private System.Windows.Forms.Button btn_cinema;
         private System.Windows.Forms.Button btn_sport;
         private System.Windows.Forms.Button btn_mix;
-        private System.Windows.Forms.Label lbl_score;
         private System.Windows.Forms.TextBox tb_name;
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Button btn_name;
         public System.Windows.Forms.Label lbl_score_updated;
         private System.Windows.Forms.Button btn_leaderboard;
+        private System.Windows.Forms.CheckBox cb_music;
     }
 }
 

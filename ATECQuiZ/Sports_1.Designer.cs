@@ -38,6 +38,10 @@
             this.lbl_third = new System.Windows.Forms.Label();
             this.lbl_fourth = new System.Windows.Forms.Label();
             this.btn_answer = new System.Windows.Forms.Button();
+            this.btn_first = new System.Windows.Forms.Button();
+            this.btn_second = new System.Windows.Forms.Button();
+            this.btn_third = new System.Windows.Forms.Button();
+            this.btn_fourth = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_sport
@@ -72,7 +76,7 @@
             // 
             this.rb_third.AutoSize = true;
             this.rb_third.BackColor = System.Drawing.Color.Transparent;
-            this.rb_third.Location = new System.Drawing.Point(250, 500);
+            this.rb_third.Location = new System.Drawing.Point(250, 475);
             this.rb_third.Name = "rb_third";
             this.rb_third.Size = new System.Drawing.Size(14, 13);
             this.rb_third.TabIndex = 2;
@@ -96,7 +100,7 @@
             // 
             this.rb_fourth.AutoSize = true;
             this.rb_fourth.BackColor = System.Drawing.Color.Transparent;
-            this.rb_fourth.Location = new System.Drawing.Point(1000, 500);
+            this.rb_fourth.Location = new System.Drawing.Point(1000, 462);
             this.rb_fourth.Name = "rb_fourth";
             this.rb_fourth.Size = new System.Drawing.Size(14, 13);
             this.rb_fourth.TabIndex = 4;
@@ -163,12 +167,52 @@
             this.btn_answer.UseVisualStyleBackColor = true;
             this.btn_answer.Click += new System.EventHandler(this.btn_answer_Click);
             // 
+            // btn_first
+            // 
+            this.btn_first.Location = new System.Drawing.Point(181, 224);
+            this.btn_first.Name = "btn_first";
+            this.btn_first.Size = new System.Drawing.Size(146, 39);
+            this.btn_first.TabIndex = 10;
+            this.btn_first.UseVisualStyleBackColor = true;
+            this.btn_first.Click += new System.EventHandler(this.btn_first_Click);
+            // 
+            // btn_second
+            // 
+            this.btn_second.Location = new System.Drawing.Point(942, 224);
+            this.btn_second.Name = "btn_second";
+            this.btn_second.Size = new System.Drawing.Size(146, 39);
+            this.btn_second.TabIndex = 11;
+            this.btn_second.UseVisualStyleBackColor = true;
+            this.btn_second.Click += new System.EventHandler(this.btn_second_Click);
+            // 
+            // btn_third
+            // 
+            this.btn_third.Location = new System.Drawing.Point(181, 449);
+            this.btn_third.Name = "btn_third";
+            this.btn_third.Size = new System.Drawing.Size(146, 39);
+            this.btn_third.TabIndex = 12;
+            this.btn_third.UseVisualStyleBackColor = true;
+            this.btn_third.Click += new System.EventHandler(this.btn_third_Click);
+            // 
+            // btn_fourth
+            // 
+            this.btn_fourth.Location = new System.Drawing.Point(926, 449);
+            this.btn_fourth.Name = "btn_fourth";
+            this.btn_fourth.Size = new System.Drawing.Size(146, 39);
+            this.btn_fourth.TabIndex = 13;
+            this.btn_fourth.UseVisualStyleBackColor = true;
+            this.btn_fourth.Click += new System.EventHandler(this.btn_fourth_Click);
+            // 
             // Sports_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ATECQuiZ.Properties.Resources.back1;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btn_fourth);
+            this.Controls.Add(this.btn_third);
+            this.Controls.Add(this.btn_second);
+            this.Controls.Add(this.btn_first);
             this.Controls.Add(this.btn_answer);
             this.Controls.Add(this.lbl_fourth);
             this.Controls.Add(this.lbl_third);
@@ -199,5 +243,9 @@
         private System.Windows.Forms.Label lbl_third;
         private System.Windows.Forms.Label lbl_fourth;
         private System.Windows.Forms.Button btn_answer;
+        private System.Windows.Forms.Button btn_first;
+        private System.Windows.Forms.Button btn_second;
+        private System.Windows.Forms.Button btn_third;
+        private System.Windows.Forms.Button btn_fourth;
     }
 }

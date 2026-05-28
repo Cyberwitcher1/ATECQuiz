@@ -38,6 +38,10 @@
             this.rb_third = new System.Windows.Forms.RadioButton();
             this.rb_first = new System.Windows.Forms.RadioButton();
             this.lbl_sport = new System.Windows.Forms.Label();
+            this.btn_first = new System.Windows.Forms.Button();
+            this.btn_second = new System.Windows.Forms.Button();
+            this.btn_third = new System.Windows.Forms.Button();
+            this.btn_fourth = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_answer
@@ -103,7 +107,7 @@
             // 
             this.rb_fourth.AutoSize = true;
             this.rb_fourth.BackColor = System.Drawing.Color.Transparent;
-            this.rb_fourth.Location = new System.Drawing.Point(1000, 500);
+            this.rb_fourth.Location = new System.Drawing.Point(981, 468);
             this.rb_fourth.Name = "rb_fourth";
             this.rb_fourth.Size = new System.Drawing.Size(14, 13);
             this.rb_fourth.TabIndex = 14;
@@ -127,7 +131,7 @@
             // 
             this.rb_third.AutoSize = true;
             this.rb_third.BackColor = System.Drawing.Color.Transparent;
-            this.rb_third.Location = new System.Drawing.Point(250, 500);
+            this.rb_third.Location = new System.Drawing.Point(250, 468);
             this.rb_third.Name = "rb_third";
             this.rb_third.Size = new System.Drawing.Size(14, 13);
             this.rb_third.TabIndex = 12;
@@ -162,12 +166,52 @@
             this.lbl_sport.Text = "Pergunta";
             this.lbl_sport.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btn_first
+            // 
+            this.btn_first.Location = new System.Drawing.Point(197, 237);
+            this.btn_first.Name = "btn_first";
+            this.btn_first.Size = new System.Drawing.Size(146, 39);
+            this.btn_first.TabIndex = 31;
+            this.btn_first.UseVisualStyleBackColor = true;
+            this.btn_first.Click += new System.EventHandler(this.btn_first_Click);
+            // 
+            // btn_second
+            // 
+            this.btn_second.Location = new System.Drawing.Point(907, 237);
+            this.btn_second.Name = "btn_second";
+            this.btn_second.Size = new System.Drawing.Size(146, 39);
+            this.btn_second.TabIndex = 32;
+            this.btn_second.UseVisualStyleBackColor = true;
+            this.btn_second.Click += new System.EventHandler(this.btn_second_Click);
+            // 
+            // btn_third
+            // 
+            this.btn_third.Location = new System.Drawing.Point(197, 455);
+            this.btn_third.Name = "btn_third";
+            this.btn_third.Size = new System.Drawing.Size(146, 39);
+            this.btn_third.TabIndex = 33;
+            this.btn_third.UseVisualStyleBackColor = true;
+            this.btn_third.Click += new System.EventHandler(this.btn_third_Click);
+            // 
+            // btn_fourth
+            // 
+            this.btn_fourth.Location = new System.Drawing.Point(907, 455);
+            this.btn_fourth.Name = "btn_fourth";
+            this.btn_fourth.Size = new System.Drawing.Size(146, 39);
+            this.btn_fourth.TabIndex = 34;
+            this.btn_fourth.UseVisualStyleBackColor = true;
+            this.btn_fourth.Click += new System.EventHandler(this.btn_fourth_Click);
+            // 
             // Cinema_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ATECQuiZ.Properties.Resources.back1;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.btn_fourth);
+            this.Controls.Add(this.btn_third);
+            this.Controls.Add(this.btn_second);
+            this.Controls.Add(this.btn_first);
             this.Controls.Add(this.btn_answer);
             this.Controls.Add(this.lbl_fourth);
             this.Controls.Add(this.lbl_third);
@@ -197,5 +241,9 @@
         private System.Windows.Forms.RadioButton rb_third;
         private System.Windows.Forms.RadioButton rb_first;
         private System.Windows.Forms.Label lbl_sport;
+        private System.Windows.Forms.Button btn_first;
+        private System.Windows.Forms.Button btn_second;
+        private System.Windows.Forms.Button btn_third;
+        private System.Windows.Forms.Button btn_fourth;
     }
 }

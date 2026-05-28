@@ -23,9 +23,12 @@ namespace ATECQuiZ
         bool button3Clicked = false;
         bool btnSportClicked = false, btnHistoryClicked = false, btnCinemaClicked = false, btnMixClicked = false;
 
+
         public Menu()
         {
             InitializeComponent();
+            cb_music.Checked = true;
+
             tb_name.Visible = false;
             btn_name.Visible = false;
 
@@ -41,9 +44,6 @@ namespace ATECQuiZ
             }
             UpdateScore(Program.global_score);
 
-            /*SoundPlayer player = new SoundPlayer(@"audio\tumtum.wav");
-            player.Load();
-            player.Play();*/
         }
         public void UpdateScore(int score)
         {
@@ -80,6 +80,22 @@ namespace ATECQuiZ
 
         private void btn_start_Click(object sender, EventArgs e)
         {
+            if (!button1Clicked && !button2Clicked && !button3Clicked)
+            {
+                MessageBox.Show("Tem que escolher um nível!");
+                return;
+            }
+            if (!btnSportClicked && !btnHistoryClicked && !btnCinemaClicked && !btnMixClicked)
+            {
+                MessageBox.Show("Tem que escolher um tema!");
+                return;
+            }
+            if (Program.name == "")
+            {
+                MessageBox.Show("Tem que escolher um nome!");
+                return;
+            }
+
             if (btnSportClicked)
             {
                 if (button1Clicked)
@@ -156,6 +172,9 @@ namespace ATECQuiZ
 
         private void button1_Click(object sender, EventArgs e)
         {
+            btn_level1.ForeColor = Color.FromArgb(255,255,255);
+            btn_level2.ForeColor = Color.FromArgb(0, 0, 0);
+            btn_level3.ForeColor = Color.FromArgb(0,0,0);
             button1Clicked = true;
             button2Clicked = false;
             button3Clicked = false;
@@ -163,6 +182,9 @@ namespace ATECQuiZ
 
         private void button3_Click(object sender, EventArgs e)
         {
+            btn_level2.ForeColor = Color.FromArgb(255,255,255);
+            btn_level3.ForeColor = Color.FromArgb(0, 0, 0);
+            btn_level1.ForeColor = Color.FromArgb(0, 0, 0);
             button2Clicked = true;
             button1Clicked = false;
             button3Clicked = false;
@@ -170,6 +192,10 @@ namespace ATECQuiZ
 
         private void button2_Click(object sender, EventArgs e)
         {
+            btn_level3.ForeColor = Color.FromArgb(255,255,255);
+            btn_level1.ForeColor = Color.FromArgb(0, 0, 0);
+            btn_level2.ForeColor = Color.FromArgb(0, 0, 0);
+
             button3Clicked = true;
             button2Clicked = false;
             button1Clicked = false;
@@ -177,6 +203,9 @@ namespace ATECQuiZ
 
         private void btn_sport_Click(object sender, EventArgs e)
         {
+            btn_sport.Size = new Size(84, 58);
+            btn_history.Size = new Size(76, 50);
+            btn_cinema.Size = new Size(76, 50);
             btnSportClicked = true;
             btnHistoryClicked = false;
             btnCinemaClicked = false;
@@ -184,6 +213,15 @@ namespace ATECQuiZ
 
         private void btn_nome_Click(object sender, EventArgs e)
         {
+            if (tb_name.Text == "" )
+            {
+                MessageBox.Show("Tem que preencher o nome!");
+                return;
+            }
+            else
+            {
+
+            }
             Program.name = tb_name.Text;
             lbl_name.Text = "Bem vindo/a ao ATECQuiz " + Program.name + "!";
             tb_name.Visible = false;
@@ -217,16 +255,32 @@ namespace ATECQuiZ
             }
         }
 
+        private void cb_music_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_music.Checked)
+            {
+                SoundPlayer player = new SoundPlayer(@"audio\tumtum.wav");
+                player.Load();
+                player.PlayLooping();
+            }
+            else
+            {
+                SoundPlayer player = new SoundPlayer(@"audio\tumtum.wav");
+                player.Stop();
+            }
+        }
+
         private void btn_mix_Click(object sender, EventArgs e)
         {
-            btnMixClicked = true;
-            btnHistoryClicked = false;
-            btnCinemaClicked = false;
-            btnSportClicked = false;
+            return;
         }
 
         private void btn_history_Click(object sender, EventArgs e)
         {
+            btn_history.Size = new Size(84, 58);
+            btn_cinema.Size = new Size(76, 50);
+            btn_sport.Size = new Size(76, 50);
+            btn_history.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
             btnHistoryClicked = true;
             btnSportClicked = false;
             btnCinemaClicked = false;
@@ -234,6 +288,10 @@ namespace ATECQuiZ
 
         private void btn_cinema_Click(object sender, EventArgs e)
         {
+            btn_cinema.Size = new Size(84, 58);
+            btn_sport.Size = new Size(76, 50);
+            btn_history.Size = new Size(76, 50);
+            btn_cinema.FlatAppearance.BorderColor = Color.FromArgb(255, 0, 0);
             btnCinemaClicked = true;
             btnSportClicked = false;
             btnHistoryClicked = false;

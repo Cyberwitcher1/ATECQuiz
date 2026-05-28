@@ -224,6 +224,42 @@ namespace ATECQuiZ
             button4 = false;
         }
 
+        private void btn_first_Click(object sender, EventArgs e)
+        {
+            rb_first.Checked = true;
+            btn_first.BackColor = Color.FromArgb(0, 255, 0);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btn_second_Click(object sender, EventArgs e)
+        {
+            rb_second.Checked = true;
+            btn_second.BackColor = Color.FromArgb(0, 255, 0);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btn_third_Click(object sender, EventArgs e)
+        {
+            rb_third.Checked = true;
+            btn_third.BackColor = Color.FromArgb(0, 255, 0);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btn_fourth_Click(object sender, EventArgs e)
+        {
+            rb_fourth.Checked = true;
+            btn_fourth.BackColor = Color.FromArgb(0, 255, 0);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
         private void rb_third_CheckedChanged(object sender, EventArgs e)
         {
             button3 = true;
@@ -242,9 +278,32 @@ namespace ATECQuiZ
 
         private void btn_answer_Click(object sender, EventArgs e)
         {
-            CheckQuestion();
+            if (rb_first.Checked == false && rb_second.Checked == false && rb_third.Checked == false && rb_fourth.Checked == false)
+            {
+                MessageBox.Show("Por favor escolha uma opção!");
+                return;
+
+            }
+            else
+            {
+
+            }
+
+
+
+                CheckQuestion();
             counter = counter + 1;
             LoadQuestion();
+
+            rb_first.Checked = false;
+            rb_second.Checked = false;
+            rb_third.Checked = false;
+            rb_fourth.Checked = false;
+
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
         }
     }
 }

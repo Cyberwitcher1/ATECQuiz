@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.XPath;
 
 namespace ATECQuiZ
 {
@@ -49,31 +50,33 @@ namespace ATECQuiZ
 
             if (counter == 1)
             {
-
                 /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[1]];
+                /*
+                XElement doc  = XElement.Parse(XmlNodeList);
 
 
-                XmlElement element = doc.GetElementById("4");
-
-                MessageBox.Show(element.OuterXml);
 
 
-                foreach (XmlNode node in element.ChildNodes)
+                MessageBox.Show(element1.OuterXml);
+
+
+                foreach (XmlNode node in doc.DocumentElement.ChildNodes)
                 {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
+                    lbl_first.Text = element1.ChildNodes[0].InnerText;
+                    lbl_second.Text = element1.ChildNodes[1].InnerText;
+                    lbl_third.Text = element1.ChildNodes[2].InnerText;
+                    lbl_fourth.Text = element1.ChildNodes[3].InnerText;
                 }
+                */
             }
             if (counter == 2)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[2]];
                 question_number = random_numbers[2];
 
                 XmlElement element = doc.GetElementById(question_number.ToString());
+                element.Attributes.Append(doc.CreateAttribute("id"));
 
                 foreach (XmlNode node in element.ChildNodes)
                 {
@@ -86,7 +89,6 @@ namespace ATECQuiZ
             }
             if (counter == 3)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[3]];
                 question_number = random_numbers[3];
 
@@ -103,7 +105,6 @@ namespace ATECQuiZ
             }
             if (counter == 4)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[4]];
                 question_number = random_numbers[4];
 
@@ -120,7 +121,6 @@ namespace ATECQuiZ
             }
             if (counter == 5)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[5]];
                 question_number = random_numbers[5];
 
@@ -136,7 +136,6 @@ namespace ATECQuiZ
             }
             if (counter == 6)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[6]];
                 question_number = random_numbers[6];
 
@@ -152,7 +151,6 @@ namespace ATECQuiZ
             }
             if (counter == 7)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[7]];
                 question_number = random_numbers[7];
 
@@ -168,7 +166,6 @@ namespace ATECQuiZ
             }
             if (counter == 8)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[8]];
                 question_number = random_numbers[8];
 
@@ -184,7 +181,6 @@ namespace ATECQuiZ
             }
             if (counter == 9)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[9]];
                 question_number = random_numbers[9];
 
@@ -200,7 +196,6 @@ namespace ATECQuiZ
             }
             if (counter == 10)
             {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
                 lbl_sport.Text = all_questions[random_numbers[10]];
                 question_number = random_numbers[10];
 
