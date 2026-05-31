@@ -274,7 +274,7 @@
 						<resposta_3>2 pessoas apenas</resposta_3>
 						<resposta_4>2 ou 4 pessoas</resposta_4>
 					</respostas>
-					<respostacerta id="C27">5</respostacerta>
+					<respostacerta id="C27">2 ou 4 pessoas</respostacerta>
 				</pergunta_7>
 				<pergunta_8>
 					<texto>Quem foi a primeira ginasta a obter uma pontuação perfeita em Jogos Olímpicos?</texto>
@@ -437,7 +437,7 @@
 					<texto>Qual foi o ano em que se formou o Reino da Grã-Bretanha?</texto>
 					<respostas id="43">
 						<resposta_1>1694</resposta_1>
-						<resposta_2>1707 Chamberlain</resposta_2>
+						<resposta_2>1707</resposta_2>
 						<resposta_3>1655</resposta_3>
 						<resposta_4>1716</resposta_4>
 					</respostas>

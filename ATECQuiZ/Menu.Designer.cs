@@ -39,13 +39,13 @@
             this.btn_history = new System.Windows.Forms.Button();
             this.btn_cinema = new System.Windows.Forms.Button();
             this.btn_sport = new System.Windows.Forms.Button();
-            this.btn_mix = new System.Windows.Forms.Button();
             this.tb_name = new System.Windows.Forms.TextBox();
             this.lbl_name = new System.Windows.Forms.Label();
             this.btn_name = new System.Windows.Forms.Button();
             this.lbl_score_updated = new System.Windows.Forms.Label();
             this.btn_leaderboard = new System.Windows.Forms.Button();
             this.cb_music = new System.Windows.Forms.CheckBox();
+            this.btn_mix = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_start
@@ -191,20 +191,6 @@
             this.btn_sport.UseVisualStyleBackColor = false;
             this.btn_sport.Click += new System.EventHandler(this.btn_sport_Click);
             // 
-            // btn_mix
-            // 
-            this.btn_mix.BackColor = System.Drawing.Color.Gold;
-            this.btn_mix.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_mix.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_mix.ForeColor = System.Drawing.Color.Black;
-            this.btn_mix.Location = new System.Drawing.Point(583, 472);
-            this.btn_mix.Name = "btn_mix";
-            this.btn_mix.Size = new System.Drawing.Size(150, 50);
-            this.btn_mix.TabIndex = 13;
-            this.btn_mix.Text = "Mix ATEC! (Incompleto)";
-            this.btn_mix.UseVisualStyleBackColor = false;
-            this.btn_mix.Click += new System.EventHandler(this.btn_mix_Click);
-            // 
             // tb_name
             // 
             this.tb_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -273,6 +259,20 @@
             this.cb_music.UseVisualStyleBackColor = true;
             this.cb_music.CheckedChanged += new System.EventHandler(this.cb_music_CheckedChanged);
             // 
+            // btn_mix
+            // 
+            this.btn_mix.BackColor = System.Drawing.Color.Gold;
+            this.btn_mix.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_mix.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mix.ForeColor = System.Drawing.Color.Black;
+            this.btn_mix.Location = new System.Drawing.Point(583, 472);
+            this.btn_mix.Name = "btn_mix";
+            this.btn_mix.Size = new System.Drawing.Size(150, 50);
+            this.btn_mix.TabIndex = 13;
+            this.btn_mix.Text = "Mix ATEC!";
+            this.btn_mix.UseVisualStyleBackColor = false;
+            this.btn_mix.Click += new System.EventHandler(this.btn_mix_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -319,13 +319,13 @@
         private System.Windows.Forms.Button btn_history;
         private System.Windows.Forms.Button btn_cinema;
         private System.Windows.Forms.Button btn_sport;
-        private System.Windows.Forms.Button btn_mix;
         private System.Windows.Forms.TextBox tb_name;
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Button btn_name;
         public System.Windows.Forms.Label lbl_score_updated;
         private System.Windows.Forms.Button btn_leaderboard;
         private System.Windows.Forms.CheckBox cb_music;
+        private System.Windows.Forms.Button btn_mix;
     }
 }
 

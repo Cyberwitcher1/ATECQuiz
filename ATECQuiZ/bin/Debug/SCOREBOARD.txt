@@ -13,3 +13,9 @@
 120 teste1
 30 teste2
 60 Ricardo
+40 Ricardo
+180 teste
+10 teste
+10 teste
+50 teste
+10 teste

@@ -18,9 +18,10 @@ namespace ATECQuiZ
     {
         private int correct = 0;
         private int wrong = 0;
-        private int counter = 1;
+        private int counter = 0;
         private bool button1, button2, button3, button4;
-
+        List<int> random_numbers = new List<int>();
+        List<string> all_questions = new List<string>();
         public Mix_1()
         {
             InitializeComponent();
@@ -28,232 +29,137 @@ namespace ATECQuiZ
             XmlDocument doc = new XmlDocument();
             doc.Load("quiz.xml");
 
-            List<string> questions_sports = new List<string>();
-            List<string> questions_history = new List<string>();
-            List<string> questions_cinema = new List<string>();
-            List<string> all_questions = new List<string>();
-            List<int> random_numbers = new List<int>();
+            RandomLists(random_numbers);
 
-            RandomLists(questions_sports, questions_history, questions_cinema, random_numbers);
+            LoadQuestion();
+            int question_check = random_numbers[counter];
 
-            all_questions.AddRange(questions_sports);
-            all_questions.AddRange(questions_history);
-            all_questions.AddRange(questions_cinema);
-            int question_number = 0;
-            LoadQuestion(all_questions, random_numbers, question_number);
         }
 
-        private void LoadQuestion(List<string> all_questions, List<int> random_numbers, int question_number)
-        {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("quiz.xml");
-
-            if (counter == 1)
-            {
-                /* WRITES TO THE LABEL THE FIRST RANDOM QUESTION */
-                lbl_sport.Text = all_questions[random_numbers[1]];
-                /*
-                XElement doc  = XElement.Parse(XmlNodeList);
-
-
-
-
-                MessageBox.Show(element1.OuterXml);
-
-
-                foreach (XmlNode node in doc.DocumentElement.ChildNodes)
-                {
-                    lbl_first.Text = element1.ChildNodes[0].InnerText;
-                    lbl_second.Text = element1.ChildNodes[1].InnerText;
-                    lbl_third.Text = element1.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element1.ChildNodes[3].InnerText;
-                }
-                */
-            }
-            if (counter == 2)
-            {
-                lbl_sport.Text = all_questions[random_numbers[2]];
-                question_number = random_numbers[2];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-                element.Attributes.Append(doc.CreateAttribute("id"));
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-
-            }
-            if (counter == 3)
-            {
-                lbl_sport.Text = all_questions[random_numbers[3]];
-                question_number = random_numbers[3];
-
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 4)
-            {
-                lbl_sport.Text = all_questions[random_numbers[4]];
-                question_number = random_numbers[4];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-
-            }
-            if (counter == 5)
-            {
-                lbl_sport.Text = all_questions[random_numbers[5]];
-                question_number = random_numbers[5];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 6)
-            {
-                lbl_sport.Text = all_questions[random_numbers[6]];
-                question_number = random_numbers[6];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 7)
-            {
-                lbl_sport.Text = all_questions[random_numbers[7]];
-                question_number = random_numbers[7];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 8)
-            {
-                lbl_sport.Text = all_questions[random_numbers[8]];
-                question_number = random_numbers[8];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 9)
-            {
-                lbl_sport.Text = all_questions[random_numbers[9]];
-                question_number = random_numbers[9];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 10)
-            {
-                lbl_sport.Text = all_questions[random_numbers[10]];
-                question_number = random_numbers[10];
-
-                XmlElement element = doc.GetElementById(question_number.ToString());
-
-                foreach (XmlNode node in element.ChildNodes)
-                {
-                    lbl_first.Text = element.ChildNodes[0].InnerText;
-                    lbl_second.Text = element.ChildNodes[1].InnerText;
-                    lbl_third.Text = element.ChildNodes[2].InnerText;
-                    lbl_fourth.Text = element.ChildNodes[3].InnerText;
-                }
-            }
-            if (counter == 11)
-            {
-                endingMenu();
-            }
-        }
-
-        private void RandomLists(List<string> questions_sports, List<string> questions_history, List<string> questions_cinema, List<int> random_numbers)
+        private void LoadQuestion()
         {
             XmlDocument doc = new XmlDocument();
             doc.Load("quiz.xml");
 
 
-            /* CREATION OF ALL POSSIBLE QUESTIONS */
+            int question_number = random_numbers[counter];
 
-            for (int i = 1; i < 11; i++)
+
+            if (question_number >= 1 && question_number <= 10)
             {
-                string nodeSport_1 = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{i}/texto").InnerText;
-                string nodeSport_2 = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{i}/texto").InnerText;
-                string nodeSport_3 = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{i}/texto").InnerText;
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/texto").InnerText;
 
-                questions_sports.Add(nodeSport_1);
-                questions_sports.Add(nodeSport_2);
-                questions_sports.Add(nodeSport_3);
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 11 && question_number <= 20)
+            {
+
+                question_number = question_number - 10;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 21 && question_number <= 30)
+            {
+                question_number = question_number - 20;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 31 && question_number <= 40)
+            {
+                question_number = question_number - 30;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 41 && question_number <= 50)
+            {
+                question_number = question_number - 40;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+
+            }
+            else if (question_number >= 51 && question_number <= 60)
+            {
+                question_number = question_number - 50;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 61 && question_number <= 70)
+            {
+                question_number = question_number - 60;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 71 && question_number <= 80)
+            {
+                question_number = question_number - 70;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
+            }
+            else if (question_number >= 81 && question_number <= 90)
+            {
+                question_number = question_number - 80;
+
+                lbl_mix.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/texto").InnerText;
+
+                lbl_first.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostas/resposta_1").InnerText;
+                lbl_second.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostas/resposta_2").InnerText;
+                lbl_third.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostas/resposta_3").InnerText;
+                lbl_fourth.Text = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostas/resposta_4").InnerText;
+
             }
 
-            for (int i = 1; i < 11; i++)
-            {
-                string nodeHistory_1 = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{i}/texto").InnerText;
-                string nodeHistory_2 = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{i}/texto").InnerText;
-                string nodeHistory_3 = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{i}/texto").InnerText;
+        }
+        private void RandomLists(List<int> random_numbers)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("quiz.xml");
 
-                questions_history.Add(nodeHistory_1);
-                questions_history.Add(nodeHistory_2);
-                questions_history.Add(nodeHistory_3);
-            }
-            for (int i = 1; i < 11; i++)
-            {
-                string nodeCinema_1 = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{i}/texto").InnerText;
-                string nodeCinema_2 = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{i}/texto").InnerText;
-                string nodeCinema_3 = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{i}/texto").InnerText;
-
-                questions_cinema.Add(nodeCinema_1);
-                questions_cinema.Add(nodeCinema_2);
-                questions_cinema.Add(nodeCinema_3);
-            }
 
             /* CREATING OF RANDOM NUMBERS FOR THE LISTS SO ITS ALWAYS SHUFFLED WHEN LOADED */
             Random random = new Random();
@@ -297,122 +203,523 @@ namespace ATECQuiZ
             button3 = false;
         }
 
-        private void CheckQuestion(int question_number)
+        private void btn_first_Click(object sender, EventArgs e)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("quiz.xml");
-            if (question_number >= 1 && question_number <= 11)
-            {
-
-
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 11 && question_number <= 21)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 21 && question_number <= 31)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 31 && question_number <= 41)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 41 && question_number <= 51)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 51 && question_number <= 61)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 61 && question_number <= 71)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 71 && question_number <= 81)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-            if (question_number >= 81 && question_number <= 91)
-            {
-                string correct_answer = doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{counter}/resposta_correta").InnerText;
-                if (button1 == true && rb_first.Text == correct_answer)
-                {
-                    correct = correct + 1;
-                }
-                else
-                {
-                    wrong = wrong + 1;
-                }
-            }
-
+            rb_first.Checked = true;
+            btn_first.BackColor = Color.FromArgb(0, 255, 0);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
         }
+
+        private void btn_second_Click(object sender, EventArgs e)
+        {
+            rb_second.Checked = true;
+            btn_second.BackColor = Color.FromArgb(0, 255, 0);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btn_third_Click(object sender, EventArgs e)
+        {
+            rb_third.Checked = true;
+            btn_third.BackColor = Color.FromArgb(0, 255, 0);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btn_fourth_Click(object sender, EventArgs e)
+        {
+            rb_fourth.Checked = true;
+            btn_fourth.BackColor = Color.FromArgb(0, 255, 0);
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void CheckQuestion()
+        {
+            int question_number = random_numbers[counter];
+
+            if (button1 == true)
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("quiz.xml");
+
+                if (question_number >= 1 && question_number <= 10)
+                {
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 11 && question_number <= 20)
+                {
+                    question_number = question_number - 10;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 21 && question_number <= 30)
+                {
+                    question_number = question_number - 20;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 31 && question_number <= 40)
+                {
+                    question_number = question_number - 30;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 41 && question_number <= 50)
+                {
+                    question_number = question_number - 40;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 51 && question_number <= 60)
+                {
+                    question_number = question_number - 50;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 61 && question_number <= 70)
+                {
+                    question_number = question_number - 60;
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 71 && question_number <= 80)
+                {
+                    question_number = question_number - 70;
+
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+
+                }
+                else if (question_number >= 81 && question_number <= 90)
+                {
+                    question_number = question_number - 80;
+
+                    if (lbl_first.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+            }
+            else if (button2 == true)
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("quiz.xml");
+                if (question_number >= 1 && question_number <= 10)
+                {
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 11 && question_number <= 20)
+                {
+                    question_number = question_number - 10;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 21 && question_number <= 30)
+                {
+                    question_number = question_number - 20;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 31 && question_number <= 40)
+                {
+                    question_number = question_number - 30;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 41 && question_number <= 50)
+                {
+                    question_number = question_number - 40;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 51 && question_number <= 60)
+                {
+                    question_number = question_number - 50;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 61 && question_number <= 70)
+                {
+                    question_number = question_number - 60;
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 71 && question_number <= 80)
+                {
+                    question_number = question_number - 70;
+
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+
+                }
+                else if (question_number >= 81 && question_number <= 90)
+                {
+                    question_number = question_number - 80;
+
+                    if (lbl_second.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+            }
+            else if (button3 == true)
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("quiz.xml");
+                if (question_number >= 1 && question_number <= 10)
+                {
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 11 && question_number <= 20)
+                {
+                    question_number = question_number - 10;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 21 && question_number <= 30)
+                {
+                    question_number = question_number - 20;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 31 && question_number <= 40)
+                {
+                    question_number = question_number - 30;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 41 && question_number <= 50)
+                {
+                    question_number = question_number - 40;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 51 && question_number <= 60)
+                {
+                    question_number = question_number - 50;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 61 && question_number <= 70)
+                {
+                    question_number = question_number - 60;
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 71 && question_number <= 80)
+                {
+                    question_number = question_number - 70;
+
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+
+                }
+                else if (question_number >= 81 && question_number <= 90)
+                {
+                    question_number = question_number - 80;
+
+                    if (lbl_third.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+
+            }
+            else if (button4 == true)
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("quiz.xml");
+                if (question_number >= 1 && question_number <= 10)
+                {
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 11 && question_number <= 20)
+                {
+                    question_number = question_number - 10;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 21 && question_number <= 30)
+                {
+                    question_number = question_number - 20;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_desporto/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 31 && question_number <= 40)
+                {
+                    question_number = question_number - 30;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+
+                }
+                else if (question_number >= 41 && question_number <= 50)
+                {
+                    question_number = question_number - 40;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+
+                }
+                else if (question_number >= 51 && question_number <= 60)
+                {
+                    question_number = question_number - 50;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_historia/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                }
+                else if (question_number >= 61 && question_number <= 70)
+                {
+                    question_number = question_number - 60;
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_1/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 71 && question_number <= 80)
+                {
+                    question_number = question_number - 70;
+
+                    if (lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_2/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+                else if (question_number >= 81 && question_number <= 90)
+                {
+                    question_number = question_number - 80;
+
+                    if(lbl_fourth.Text == doc.SelectSingleNode($"/quiz/perguntas/tema_cinema/nivel_3/pergunta_{question_number}/respostacerta").InnerText)
+                    {
+                        correct++;
+                    }
+                    else
+                    {
+                        wrong++;
+                    }
+                }
+            }
+        }
+
         private void endingMenu()
         {
             this.Hide();
@@ -422,7 +729,41 @@ namespace ATECQuiZ
 
         private void btn_answer_Click(object sender, EventArgs e)
         {
-            counter = counter + 1;
+            if (rb_first.Checked == false && rb_second.Checked == false && rb_third.Checked == false && rb_fourth.Checked == false)
+            {
+                MessageBox.Show("Por favor escolha uma opção!");
+                return;
+            }
+            else
+            {
+
+            }
+
+            CheckQuestion();
+
+            if (counter == 8)
+            {
+                btn_answer.Text = "Acabar o jogo";
+            }
+            if (counter == 9)
+            {
+                endingMenu();
+            }
+            else
+            {
+                counter = counter + 1;
+                LoadQuestion();
+            }
+
+            rb_first.Checked = false;
+            rb_second.Checked = false;
+            rb_third.Checked = false;
+            rb_fourth.Checked = false;
+
+            btn_first.BackColor = Color.FromArgb(255, 255, 255);
+            btn_second.BackColor = Color.FromArgb(255, 255, 255);
+            btn_third.BackColor = Color.FromArgb(255, 255, 255);
+            btn_fourth.BackColor = Color.FromArgb(255, 255, 255);
         }
     }
 }

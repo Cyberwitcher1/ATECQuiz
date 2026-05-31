@@ -80,11 +80,6 @@ namespace ATECQuiZ
 
         private void btn_start_Click(object sender, EventArgs e)
         {
-            if (!button1Clicked && !button2Clicked && !button3Clicked)
-            {
-                MessageBox.Show("Tem que escolher um nível!");
-                return;
-            }
             if (!btnSportClicked && !btnHistoryClicked && !btnCinemaClicked && !btnMixClicked)
             {
                 MessageBox.Show("Tem que escolher um tema!");
@@ -95,6 +90,15 @@ namespace ATECQuiZ
                 MessageBox.Show("Tem que escolher um nome!");
                 return;
             }
+            if (btnSportClicked == true || btnHistoryClicked == true || btnCinemaClicked == true)
+            {
+                if (!button1Clicked && !button2Clicked && !button3Clicked)
+                {
+                    MessageBox.Show("Tem que escolher um nível!");
+                    return;
+                }
+            }
+
 
             if (btnSportClicked)
             {
@@ -161,12 +165,9 @@ namespace ATECQuiZ
             }
             else if (btnMixClicked)
             {
-                if (button1Clicked)
-                {
-                    this.Hide();
-                    Mix_1 form11 = new Mix_1();
-                    form11.ShowDialog();
-                }
+                this.Hide();
+                Mix_1 form11 = new Mix_1();
+                form11.ShowDialog();
             }
         }
 
@@ -272,7 +273,23 @@ namespace ATECQuiZ
 
         private void btn_mix_Click(object sender, EventArgs e)
         {
-            return;
+            btnMixClicked = true;
+
+            btnHistoryClicked = false;
+            btnSportClicked = false;
+            btnCinemaClicked = false;
+
+            button1Clicked = false;
+            button2Clicked = false;
+            button3Clicked = false;
+
+            btn_cinema.Size = new Size(76, 50);
+            btn_sport.Size = new Size(76, 50);
+            btn_history.Size = new Size(76, 50);
+
+            btn_level1.ForeColor = Color.FromArgb(0, 0, 0);
+            btn_level2.ForeColor = Color.FromArgb(0, 0, 0);
+            btn_level3.ForeColor = Color.FromArgb(0, 0, 0);
         }
 
         private void btn_history_Click(object sender, EventArgs e)

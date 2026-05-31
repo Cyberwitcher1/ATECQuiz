@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\mix_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\mix_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|c:\\users\\johnny\\desktop\\trabalho\\atec\\aulas\\cet\\arrays\\winforms\\atecquiz\\atecquiz\\cinema_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985AAC2D-C52F-49C4-90F6-C6E6661F49C5}|ATECQuiZ\\ATECQuiZ.csproj|solutionrelative:atecquiz\\cinema_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,53 +25,20 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
               "RelativeDocumentMoniker": "ATECQuiZ\\Menu.cs",
               "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
               "RelativeToolTip": "ATECQuiZ\\Menu.cs",
-              "ViewState": "AgIAAPwAAAAAAAAAAAD4vxIBAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAqwB8BAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T22:59:05.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs",
-              "RelativeDocumentMoniker": "ATECQuiZ\\Menu.cs",
-              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Menu.cs [Design]",
-              "RelativeToolTip": "ATECQuiZ\\Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T22:59:03.756Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mix_1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Mix_1.cs",
-              "RelativeDocumentMoniker": "ATECQuiZ\\Mix_1.cs",
-              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Mix_1.cs [Design]",
-              "RelativeToolTip": "ATECQuiZ\\Mix_1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T22:59:01.083Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cinema_1.cs",
-              "DocumentMoniker": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Cinema_1.cs",
-              "RelativeDocumentMoniker": "ATECQuiZ\\Cinema_1.cs",
-              "ToolTip": "C:\\Users\\Johnny\\Desktop\\TRABALHO\\ATEC\\AULAS\\CET\\ARRAYS\\WinForms\\ATECQuiZ\\ATECQuiZ\\Cinema_1.cs",
-              "RelativeToolTip": "ATECQuiZ\\Cinema_1.cs",
-              "ViewState": "AgIAAAMBAAAAAAAAAAAtwBkBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T22:58:37.303Z",
+              "WhenOpened": "2026-05-31T23:46:29.132Z",
               "EditorCaption": ""
             }
           ]

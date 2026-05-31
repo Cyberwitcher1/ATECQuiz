@@ -289,7 +289,6 @@ namespace ATECQuiZ
             {
                 MessageBox.Show("Por favor escolha uma opção!");
                 return;
-
             }
             else
             {
